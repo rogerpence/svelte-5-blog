@@ -1,0 +1,749 @@
+
+
+:root{
+--blue-7: #1c7ed6;
+--red-9: #c92a2a;
+--yellow-5: #fcc419;
+--green-9: #2b8a3e;
+--shadow-2: 
+    0 3px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 7px 14px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%));
+--shadow-4: 
+    0 -2px 5px 0 hsl(var(--shadow-color) / calc(var(--shadow-strength) + 2%)),
+    0 1px 1px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 2px 2px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 5px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 4%)),
+    0 9px 9px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%)),
+    0 16px 16px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 6%));
+--brown-2: #e0cab7;
+--animation-shake-z: shake-z 1s var(--ease-in-out-3);
+--shadow-color: 220 3% 15%;
+--shadow-strength: 1%;
+--ease-in-out-3: cubic-bezier(.5, 0, .5, 1);
+
+}
+
+@layer base, design, article;
+
+@layer base {
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+  /*
+     I added this. 
+  */
+
+  button {
+    all: unset;
+  }
+
+}
+
+@layer base {
+    @media (prefers-color-scheme: dark) {
+        :root {
+            color-scheme: dark;
+
+            --black: hsl(0, 0%, 0%);
+            --white: hsl(0, 0%, 100%);
+
+            --accent-100: hsl(160, 84%, 39%);
+            --accent-200: hsl(189, 94%, 43%);
+            --accent-300: hsl(271, 91%, 65%);
+
+            --background-dark: hsl(282, 15%, 17%);
+            --background-light: hsl(240, 5%, 90%);
+          
+            --brand-primary: hsl(251, 19%, 29%);
+            --brand-complimentary: hsl(165, 22%, 70%);
+            --brand-highlight: hsl(102, 24%, 74%);
+            --brand-neutral-100: hsl(71, 57%, 85%);
+            --brand-neutral-200: hsl(44, 75%, 80%);
+
+            --secondary-100:hsl(0, 0%, 73%);
+            --secondary-200:hsl(0, 7%, 85%);
+            --secondary-300:hsl(34, 100%, 88%);
+            --secondary-400:hsl(36, 100%, 70%);
+            --secondary-500: hsl(12.7 15.8% 60%);
+
+            --state-info: var(--blue-7);
+            --state-danger: var(--red-9);
+            --state-caution: var(--yellow-5);
+            --state-ok: var(--green-9);
+
+            --neutral-100: hsl(0, 0%, 98%);
+            --neutral-200: hsl(240, 5%, 90%);
+            --neutral-300: hsl(240, 5%, 65%);
+            --neutral-400: hsl(240, 5%, 34%);
+            --neutral-500: hsl(240, 6%, 10%);
+       }
+    }
+}
+
+@layer base {
+
+    body {
+        font-family: sans-serif;
+      }
+    }
+
+@media (prefers-color-scheme: dark) {
+        :root {
+            /* background-color: red; */
+
+            --vertical-margin: 1rem;
+
+            /* --background-color: var(--background-dark);
+            --text-color: var(--text-300);
+            --heading-color: var(--brand-highlight);
+
+            background-color: var(--background-color); 
+            color: var(--text-color);    */
+
+
+            /* --border-color: hsl(39, 100%, 50%);
+            --border-pill: 9999px;
+            --border-rounded: 1rem;
+            --border-thin: 1px;
+            --border-medium: 2px;
+            --border-thick: 4px;
+
+            --accent-bg: hsl(42, 100%, 50%);
+            --accent-text: var(--bg);
+            --accent-hover: hsl(47, 96%, 76%);
+
+
+            --header-bg: hsl(0, 100%, 50%);
+            --footer-bg: hsl(0, 100%, 25%);
+            --aside-bg: hsl(0, 100%, 25%);
+
+            --nav-bg: hsl(0, 0%, 100%);
+            --nav-text: hsl(240, 6%, 10%);
+            --nav-hover: hsl(214, 32%, 91%);
+
+            --shadow-1: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
+            --anchor-text: hsl(24, 90%, 48%);
+            --anchor-hover: color-mix(in srgb, var(--anchor-text) 70%, white);
+            --anchor-underline: hsl(240, 100%, 50%);
+            --anchor-thickness: 2px;
+            --anchor-underline-offset: 0.2em; */
+
+        }
+    }
+
+/*
+ This is the css for the design/colors route. It isn't used by the design system.
+ */
+
+@layer design {
+
+    @keyframes fadeIn {
+        from { 
+            opacity: 0;
+            transform: translate(-50%, -20px);
+        }
+        to { 
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+    }
+    
+    @keyframes fadeOut {
+        from { 
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+        to { 
+            opacity: 0;
+            transform: translate(-50%, -20px);
+        }
+    }    
+
+    @keyframes copied-feedback {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+    
+            .background-dark {
+                background-color: var(--background-dark);
+            }
+            .background-light {
+                background-color: var(--background-light);
+            }
+    
+            .brand-primary {
+                background-color: var(--brand-primary);
+            }   
+            .brand-complimentary {
+                background-color: var(--brand-complimentary);
+            }
+            .brand-highlight {
+                background-color: var(--brand-highlight);
+            }
+            .brand-neutral-100 {
+                background-color: var(--brand-neutral-100);
+            }
+            .brand-neutral-200 {
+                background-color: var(--brand-neutral-200);
+            }
+    
+
+            .secondary-100 {
+                background-color: var(--secondary-100);
+            }   
+            .secondary-200 {
+                background-color: var(--secondary-200);
+            }
+            .secondary-300 {
+                background-color: var(--secondary-300);
+            }
+            .secondary-400 {
+                background-color: var(--secondary-400);
+            }
+            .secondary-500 {
+                background-color: var(--secondary-500);
+            }
+
+    
+            [class^="state-"] {
+                box-shadow: var(--shadow-2);
+                &:hover {
+                   box-shadow: var(--shadow-4);
+                }    
+            }
+    
+            .state-info {
+                background-color: var(--state-info);
+                &:hover {
+                    background-color: color-mix(in hsl, var(--state-info) 75%, white);
+                    box-shadow: var(--shadow-4);
+                }
+            }   
+            .state-danger {
+                background-color: var(--state-danger);
+                &:hover {
+                    background-color: color-mix(in hsl, var(--state-danger) 85%, white);
+    
+                }
+            }
+            .state-caution {
+                background-color: var(--state-caution);
+                &:hover {
+                    background-color: color-mix(in hsl, var(--state-caution) 85%, white);
+                }
+            }
+            .state-ok {
+                background-color: var(--state-ok);
+                &:hover {
+                    background-color: color-mix(in hsl, var(--state-ok) 75%, white);
+                }
+            }
+    
+            .accent-100 {
+                background-color: var(--accent-100);
+                &:hover {
+                    background-color: color-mix(in hsl, var(--accent-100) 75%, white);
+                }
+            }           
+            .accent-200 {
+                background-color: var(--accent-200);
+                &:hover {
+                    background-color: color-mix(in hsl, var(--accent-200) 75%, white);
+                }
+            }
+            .accent-300 {
+                background-color: var(--accent-300);
+                &:hover {
+                    background-color: color-mix(in hsl, var(--accent-300) 75%, white);
+                }
+            }
+    
+            .neutral-100 {
+                background-color: var(--neutral-100);
+            }   
+            .neutral-200 {
+                background-color: var(--neutral-200);
+            }
+            .neutral-300 {
+                background-color: var(--neutral-300);
+            }
+            .neutral-400 {
+                background-color: var(--neutral-400);
+            }   
+            .neutral-500 {
+                background-color: var(--neutral-500);
+            }
+        }
+    }    
+
+
+
+    .copied {
+        color: black;
+/*        opacity: 0;
+        height: 1rem; */
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        background: var(--neutral-100);
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        opacity: 0;
+        text-align: center;        
+    }
+
+    div.design-colors {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+        background-color: var(--brown-2);
+        display: flex;
+        justify-content: center;    
+        padding: 2rem;
+
+        & h2 {
+            color: #171717;
+            margin-bottom: .5rem;
+            font-size: 1.1rem;
+
+            &:first-of-type {
+                margin-top: 4rem;
+            }
+
+            &:not(:first-of-type) {
+                margin-top: 2rem;
+            }
+        }
+
+        & a {
+            color: #171717;
+            text-decoration: underline;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        & div.color-guide {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            & div {
+                font-size: 1.1rem;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+                justify-content: center;
+                padding-inline: .3rem;
+                padding-block: .4rem;
+                font-weight: 700;
+            }
+        }
+
+        & .white {
+            color: white;
+        }
+
+        & div.color-guide {
+            div {
+                width: 24ch;
+            }
+        }
+
+        & div.buttons {
+            display: flex;
+            justify-content: flex-start;
+            gap: 1rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        & .copied-animation {
+            animation: copied-feedback 300ms ease-in-out;
+        }
+
+        & .animation-shake-z {
+            animation: var(--animation-shake-z);
+        }
+
+        .pointer {
+            cursor: pointer;
+        }
+    }
+}
+
+@layer article {
+
+    /*
+     | Assign only colors here. 
+     */
+
+    @media (prefers-color-scheme: dark) {
+
+        header {
+            background-color: var(--background-dark);    
+        }
+    
+        aside {
+            background-color: var(--brand-complimentary);    
+            color: var(--background-dark)
+    
+        }
+
+        footer {
+            background-color: var(--neutral-500);
+        }
+
+        article.article {
+            background-color: color-mix(in hsl, var(--background-dark) 98%, white);
+            color: var(--brand-complimentary);
+
+
+            & h1, h2, h3, h4 {
+                color: var(--brand-neutral-100);
+            }
+
+            a {
+                color: var(--accent-100); 
+
+                &:hover {
+                    color: color-mix(in hsl, var(--accent-100) 70%, white);
+                }
+            }       
+
+            pre {
+                /* color: var(--neutral-500); */
+            }
+            
+            figcaption {
+                /* color: var(--neutral-200); */
+            }
+        }
+    }
+}
+
+@layer base {
+
+    body {
+        background-color: var(--background-dark);
+    }
+  
+    header {
+        grid-area: header;
+        margin-inline: var(--vertical-margin);
+        padding: var(--vertical-margin);
+        border-bottom: 2px solid var(--brand-complimentary);
+        color: var(--brand-neutral-100);
+
+        a {
+            text-decoration: none;
+            color: var(--brand-neutral-100);
+        }
+
+
+        h1 {
+        }
+
+     }
+
+     nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        padding-inline-start: 2rem;
+
+        & a {
+            color: var(--neutral-200);
+            text-decoration: underline;
+            font-weight: 700;
+            font-size: 1rem;
+        } 
+    }
+
+    
+    aside {
+        grid-area: sidebar;
+        padding: var(--vertical-margin)
+    }
+    
+    article {
+        grid-area: main;
+        padding: var(--vertical-margin)
+    }
+    
+    footer {
+        grid-area: footer;
+        padding: var(--vertical-margin)
+    }
+}
+
+.toaster {
+    color: black;
+    position: fixed;
+    /* top: 20px;
+    left: 50%;
+    transform: translateX(-50%); */
+    z-index: 1000;
+    background: var(--neutral-100);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    opacity: 0;
+    text-align: center;  
+    cursor: pointer;      
+    width: 24rem;
+
+    &.toaster-center-top {
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);    
+    }
+
+    &.toaster-left-top {
+        top: 20px;
+        left: 0;
+        /* transform: translateX(-50%);     */
+    }
+
+    &.toaster-right-top {
+        top: 20px;
+        right: -8rem;
+        /* transform: translateX(-50%);     */
+    }
+
+}
+
+.two-col-body {
+    display: flex;
+    justify-content: center;
+    container-name: content-wrapper;
+    container-type: inline-size;
+
+
+    & div {
+        display: grid;
+        /* column-gap: 1rem;    */
+        justify-items: center;
+        grid-template-columns: minmax(450px, 1fr) minmax(250px, 24%);  
+        margin-inline: 4rem;
+        max-width: 150ch;
+        
+        & article {
+            grid-column: 1/2;
+            width: 100%;
+        }
+
+        & aside {
+            grid-column: 2/3;
+            width: 100%;
+        }
+
+        @container content-wrapper (width < 1080px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+    
+            & aside {
+                padding: 1rem;
+                grid-row: 2/3;
+                grid-column: 1/2;
+            }
+        
+            & article {
+                padding: 1rem;
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }    
+        } 
+    }
+
+}
+
+@layer article {
+
+    /*
+     | Do not assign any colors here! Do that in assign-colors.css. 
+     */
+
+    article.article {  
+        /* max-width: 100ch;
+        margin-top: 2rem;
+        padding: 2rem; */
+
+        --text-font-size: 1.50rem;
+        --code-text-size: var(--text-font-size);
+        --h2-multiple: 1.5;
+        --h3-multiple: 1.3;
+        --h4-multiple: 1.1;     
+        padding-inline: 5rem;   
+
+
+        & h1 {
+            font-size: calc(var(--text-font-size) * var(--h2-multiple) + .5rem);
+            margin-block: 1lh;
+            line-height: 2.2lh;
+        }
+
+        & h2 {
+            font-size: calc(var(--text-font-size) * var(--h2-multiple));
+            margin-top: calc(var(--text-font-size) * var(--h2-multiple));
+            margin-bottom: calc(var(--text-font-size) * var(--h2-multiple));
+        }
+
+        & h3 {
+            font-size: calc(var(--text-font-size) * var(--h3-multiple));
+            margin-top: calc(var(--text-font-size) * var(--h3-multiple));
+            margin-bottom: calc(var(--text-font-size) * var(--h3-multiple));
+        }
+
+        & h4 {
+            font-size: calc(var(--text-font-size) * var(--h4-multiple));
+            margin-top: calc(var(--text-font-size) * var(--h4-multiple));
+            margin-bottom: calc(var(--text-font-size) * var(--h4-multiple));
+        }
+
+        & a {
+            text-decoration: underline;
+            text-underline-offset: 0.3em;
+            text-decoration-thickness: 1px;
+
+            &:hover {
+                text-decoration-thickness: 3px;
+            }
+        }
+        
+        & p {
+            font-size: var(--text-font-size);
+            line-height: 1.4lh;
+        }
+
+        & p + p  {
+            margin-top: var(--text-font-size);
+        }
+
+        & ul {
+            font-size: var(--text-font-size);
+            padding-left: calc(var(--text-font-size) * 2); /* Indent the list inside the paragraph */
+            margin-top: calc(var(--text-font-size) * .5); 
+        }
+        
+        & ul li {
+            margin-bottom: 5px; /*Add some space between list items*/
+        }        
+
+        & ul + p {
+            margin-top: var(--text-font-size); 
+        }
+        
+
+        & pre {
+            padding-inline: 1rem; 
+            padding-inline: .5rem; 
+            border-radius: 5px;
+            font-size: calc(var(--text-font-size) * .75);
+            margin-block-start: 2rem;
+            line-height: 1.2lh;
+        }
+        
+        & figcaption {
+            display: block;
+            font-size: calc(var(--text-font-size) * .8);
+            margin-top: .5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+    }
+
+        /* & div.spaced-bullet-list + ul > li { */
+        div.spaced-bullet-list + ul > li {
+            margin-block-end: .5lh;
+        }
+
+}
+
+/* PrismJS 1.29.0
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+csharp+powershell+python+typescript */
+
+@layer article {
+code[class*=language-],pre[class*=language-]{color:#ccc;background:0 0;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}
+}
+
+@keyframes shake-z {
+  0%, 100% { transform: rotate(0deg) }
+  20% { transform: rotate(-2deg) }
+  40% { transform: rotate(2deg) }
+  60% { transform: rotate(-2deg) }
+  80% { transform: rotate(2deg) }
+}
+
+@media (prefers-color-scheme: dark){
+
+:root{
+--shadow-color: 220 40% 2%;
+--shadow-strength: 25%;
+
+}
+
+}

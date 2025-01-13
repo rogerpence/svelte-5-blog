@@ -1,0 +1,56 @@
+@layer base {
+
+    body {
+        background-color: var(--background-dark);
+    }
+  
+    header {
+        grid-area: header;
+        margin-inline: var(--vertical-margin);
+        padding: var(--vertical-margin);
+        border-bottom: 2px solid var(--brand-complimentary);
+        color: var(--brand-neutral-100);
+
+        a {
+            text-decoration: none;
+            color: var(--brand-neutral-100);
+        }
+
+
+        h1 {
+        }
+
+     }
+
+     nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        padding-inline-start: 2rem;
+
+        & a {
+            color: var(--neutral-200);
+            text-decoration: underline;
+            font-weight: 700;
+            font-size: 1rem;
+        } 
+    }
+
+    
+    aside {
+        grid-area: sidebar;
+        padding: var(--vertical-margin)
+    }
+    
+    article {
+        grid-area: main;
+        padding: var(--vertical-margin)
+    }
+    
+    footer {
+        grid-area: footer;
+        padding: var(--vertical-margin)
+    }
+}

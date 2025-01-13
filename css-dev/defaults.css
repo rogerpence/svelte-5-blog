@@ -1,0 +1,52 @@
+@layer base {
+
+    body {
+        font-family: sans-serif;
+      }
+    }
+
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            /* background-color: red; */
+
+            --vertical-margin: 1rem;
+
+            /* --background-color: var(--background-dark);
+            --text-color: var(--text-300);
+            --heading-color: var(--brand-highlight);
+
+            background-color: var(--background-color); 
+            color: var(--text-color);    */
+
+
+            /* --border-color: hsl(39, 100%, 50%);
+            --border-pill: 9999px;
+            --border-rounded: 1rem;
+            --border-thin: 1px;
+            --border-medium: 2px;
+            --border-thick: 4px;
+
+            --accent-bg: hsl(42, 100%, 50%);
+            --accent-text: var(--bg);
+            --accent-hover: hsl(47, 96%, 76%);
+
+
+            --header-bg: hsl(0, 100%, 50%);
+            --footer-bg: hsl(0, 100%, 25%);
+            --aside-bg: hsl(0, 100%, 25%);
+
+            --nav-bg: hsl(0, 0%, 100%);
+            --nav-text: hsl(240, 6%, 10%);
+            --nav-hover: hsl(214, 32%, 91%);
+
+            --shadow-1: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
+            --anchor-text: hsl(24, 90%, 48%);
+            --anchor-hover: color-mix(in srgb, var(--anchor-text) 70%, white);
+            --anchor-underline: hsl(240, 100%, 50%);
+            --anchor-thickness: 2px;
+            --anchor-underline-offset: 0.2em; */
+
+        }
+    }

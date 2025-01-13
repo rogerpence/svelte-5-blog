@@ -1,0 +1,49 @@
+@layer article {
+
+    /*
+     | Assign only colors here. 
+     */
+
+    @media (prefers-color-scheme: dark) {
+
+        header {
+            background-color: var(--background-dark);    
+        }
+    
+        aside {
+            background-color: var(--brand-complimentary);    
+            color: var(--background-dark)
+    
+        }
+
+        footer {
+            background-color: var(--neutral-500);
+        }
+
+        article.article {
+            background-color: color-mix(in hsl, var(--background-dark) 98%, white);
+            color: var(--brand-complimentary);
+
+
+            & h1, h2, h3, h4 {
+                color: var(--brand-neutral-100);
+            }
+
+            a {
+                color: var(--accent-100); 
+
+                &:hover {
+                    color: color-mix(in hsl, var(--accent-100) 70%, white);
+                }
+            }       
+
+            pre {
+                /* color: var(--neutral-500); */
+            }
+            
+            figcaption {
+                /* color: var(--neutral-200); */
+            }
+        }
+    }
+}

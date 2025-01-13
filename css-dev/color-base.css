@@ -1,0 +1,40 @@
+@layer base {
+    @media (prefers-color-scheme: dark) {
+        :root {
+            color-scheme: dark;
+
+            --black: hsl(0, 0%, 0%);
+            --white: hsl(0, 0%, 100%);
+
+            --accent-100: hsl(160, 84%, 39%);
+            --accent-200: hsl(189, 94%, 43%);
+            --accent-300: hsl(271, 91%, 65%);
+
+            --background-dark: hsl(282, 15%, 17%);
+            --background-light: hsl(240, 5%, 90%);
+          
+            --brand-primary: hsl(251, 19%, 29%);
+            --brand-complimentary: hsl(165, 22%, 70%);
+            --brand-highlight: hsl(102, 24%, 74%);
+            --brand-neutral-100: hsl(71, 57%, 85%);
+            --brand-neutral-200: hsl(44, 75%, 80%);
+
+            --secondary-100:hsl(0, 0%, 73%);
+            --secondary-200:hsl(0, 7%, 85%);
+            --secondary-300:hsl(34, 100%, 88%);
+            --secondary-400:hsl(36, 100%, 70%);
+            --secondary-500: hsl(12.7 15.8% 60%);
+
+            --state-info: var(--blue-7);
+            --state-danger: var(--red-9);
+            --state-caution: var(--yellow-5);
+            --state-ok: var(--green-9);
+
+            --neutral-100: hsl(0, 0%, 98%);
+            --neutral-200: hsl(240, 5%, 90%);
+            --neutral-300: hsl(240, 5%, 65%);
+            --neutral-400: hsl(240, 5%, 34%);
+            --neutral-500: hsl(240, 6%, 10%);
+       }
+    }
+}
