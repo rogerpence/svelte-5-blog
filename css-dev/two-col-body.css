@@ -1,3 +1,6 @@
+
+
+@layer base {
 .two-col-body {
     display: flex;
     justify-content: center;
@@ -41,4 +44,5 @@
         } 
     }
 
+}
 }
