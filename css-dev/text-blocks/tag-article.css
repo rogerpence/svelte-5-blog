@@ -1,4 +1,3 @@
-@layer base {
     /*
      | Do not assign any colors here! Do that in assign-colors.css. 
      */
@@ -96,6 +95,4 @@
         div.spaced-bullet-list + ul > li {
             margin-block-end: .5lh;
         }
-
-}
 

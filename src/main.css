@@ -1,92 +1,94 @@
 
 
 :root{
---blue-7: #1c7ed6;
---red-9: #c92a2a;
---yellow-5: #fcc419;
---green-9: #2b8a3e;
---shadow-2: 
+    --blue-7: #1c7ed6;
+    --red-9: #c92a2a;
+    --yellow-5: #fcc419;
+    --green-9: #2b8a3e;
+    --shadow-2: 
     0 3px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
     0 7px 14px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%));
---shadow-4: 
+    --shadow-4: 
     0 -2px 5px 0 hsl(var(--shadow-color) / calc(var(--shadow-strength) + 2%)),
     0 1px 1px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
     0 2px 2px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
     0 5px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 4%)),
     0 9px 9px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%)),
     0 16px 16px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 6%));
---brown-2: #e0cab7;
---animation-shake-z: shake-z 1s var(--ease-in-out-3);
---shadow-color: 220 3% 15%;
---shadow-strength: 1%;
---ease-in-out-3: cubic-bezier(.5, 0, .5, 1);
-
+    --brown-2: #e0cab7;
+    --animation-shake-z: shake-z 1s var(--ease-in-out-3);
+    --shadow-color: 220 3% 15%;
+    --shadow-strength: 1%;
+    --ease-in-out-3: cubic-bezier(.5, 0, .5, 1);
 }
 
 @layer base, design, article;
 
-@layer base {
 /* 1. Use a more-intuitive box-sizing model */
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
-  
-  /* 2. Remove default margin */
-  * {
+
+/* 2. Remove default margin */
+
+* {
     margin: 0;
   }
-  
-  body {
+
+body {
     /* 3. Add accessible line-height */
     line-height: 1.5;
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
   }
-  
-  /* 5. Improve media defaults */
-  img, picture, video, canvas, svg {
+
+/* 5. Improve media defaults */
+
+img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
   }
-  
-  /* 6. Inherit fonts for form controls */
-  input, button, textarea, select {
+
+/* 6. Inherit fonts for form controls */
+
+input, button, textarea, select {
     font: inherit;
   }
-  
-  /* 7. Avoid text overflows */
-  p, h1, h2, h3, h4, h5, h6 {
+
+/* 7. Avoid text overflows */
+
+p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
-  
-  /* 8. Improve line wrapping */
-  p {
+
+/* 8. Improve line wrapping */
+
+p {
     text-wrap: pretty;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
   }
-  
-  /*
+
+/*
     9. Create a root stacking context
   */
-  #root, #__next {
+
+#root, #__next {
     isolation: isolate;
   }
 
-
-  /*
+/*
      I added this. 
   */
 
-  button {
+button {
     all: unset;
   }
 
-}
-
-@layer base {
-    @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
         :root {
             color-scheme: dark;
 
@@ -124,14 +126,10 @@
             --neutral-500: hsl(240, 6%, 10%);
        }
     }
-}
 
-@layer base {
-
-    body {
+body {
         font-family: sans-serif;
       }
-    }
 
 @media (prefers-color-scheme: dark) {
         :root {
@@ -182,9 +180,7 @@
  This is the css for the design/colors route. It isn't used by the design system.
  */
 
-@layer design {
-
-    @keyframes fadeIn {
+@keyframes fadeIn {
         from { 
             opacity: 0;
             transform: translate(-50%, -20px);
@@ -194,8 +190,8 @@
             transform: translate(-50%, 0);
         }
     }
-    
-    @keyframes fadeOut {
+
+@keyframes fadeOut {
         from { 
             opacity: 1;
             transform: translate(-50%, 0);
@@ -204,9 +200,9 @@
             opacity: 0;
             transform: translate(-50%, -20px);
         }
-    }    
+    }
 
-    @keyframes copied-feedback {
+@keyframes copied-feedback {
         0% {
             transform: scale(1);
         }
@@ -220,7 +216,7 @@
         }
     }
 
-    @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
         :root {
     
             .background-dark {
@@ -333,11 +329,9 @@
                 background-color: var(--neutral-500);
             }
         }
-    }    
+    }
 
-
-
-    .copied {
+.copied {
         color: black;
 /*        opacity: 0;
         height: 1rem; */
@@ -354,7 +348,7 @@
         text-align: center;        
     }
 
-    div.design-colors {
+div.design-colors {
         font-family: Arial, sans-serif;
         margin: 2rem;
         background-color: var(--brown-2);
@@ -431,15 +425,12 @@
             cursor: pointer;
         }
     }
-}
 
-@layer base {
-
-    body {
+body {
         background-color: var(--background-dark);
     }
-  
-    header {
+
+header {
         grid-area: header;
         margin-inline: var(--vertical-margin);
         padding: var(--vertical-margin);
@@ -457,7 +448,7 @@
 
      }
 
-     nav {
+nav {
         display: flex;
         justify-content: flex-end;
         gap: 1rem;
@@ -473,22 +464,20 @@
         } 
     }
 
-    
-    aside {
+aside {
         grid-area: sidebar;
         padding: var(--vertical-margin)
     }
-    
-    article {
+
+article {
         grid-area: main;
         padding: var(--vertical-margin)
     }
-    
-    footer {
+
+footer {
         grid-area: footer;
         padding: var(--vertical-margin)
     }
-}
 
 .toaster {
     color: black;
@@ -526,7 +515,6 @@
 
 }
 
-@layer base {
 .two-col-body {
     display: flex;
     justify-content: center;
@@ -571,14 +559,12 @@
     }
 
 }
-}
 
-@layer base {
-    /*
+/*
      | Do not assign any colors here! Do that in assign-colors.css. 
      */
 
-    article.article {  
+article.article {  
         /* max-width: 100ch;
         margin-top: 2rem;
         padding: 2rem; */
@@ -667,12 +653,11 @@
         }
     }
 
-        /* & div.spaced-bullet-list + ul > li { */
-        div.spaced-bullet-list + ul > li {
+/* & div.spaced-bullet-list + ul > li { */
+
+div.spaced-bullet-list + ul > li {
             margin-block-end: .5lh;
         }
-
-}
 
 /* PrismJS 1.29.0
 https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+csharp+powershell+python+typescript */
@@ -691,10 +676,8 @@ code[class*=language-],pre[class*=language-]{color:#ccc;background:0 0;font-fami
 
 @media (prefers-color-scheme: dark){
 
-:root{
---shadow-color: 220 40% 2%;
---shadow-strength: 25%;
-
-}
-
+    :root{
+        --shadow-color: 220 40% 2%;
+        --shadow-strength: 25%;
+    }
 }

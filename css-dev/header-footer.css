@@ -1,5 +1,3 @@
-@layer base {
-
     body {
         background-color: var(--background-dark);
     }
@@ -53,4 +51,3 @@
         grid-area: footer;
         padding: var(--vertical-margin)
     }
-}

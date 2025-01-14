@@ -2,8 +2,6 @@
  This is the css for the design/colors route. It isn't used by the design system.
  */
 
-@layer design {
-
     @keyframes fadeIn {
         from { 
             opacity: 0;
@@ -251,4 +249,3 @@
             cursor: pointer;
         }
     }
-}
