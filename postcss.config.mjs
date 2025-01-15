@@ -35,15 +35,15 @@ export default {
 			preserve: DO_NOT_PRESERVE_UNRESOLVED_RULE
 		}),
 
-		...(process.env.NODE_ENV === 'production'
-			? [purgeCSSPlugin(
-				{ 
-					content: ['./src/routes/**/*.svelte'],
-					safelist: ['mt-48'], 
-				}
-			)]
-			: []),
+		// ...(process.env.NODE_ENV === 'production'
+		// 	? [purgeCSSPlugin(
+		// 		{ 
+		// 			content: ['./src/routes/**/*.svelte'],
+		// 			safelist: ['mt-48'], 
+		// 		}
+		// 	)]
+		// 	: []),
 
-		...(process.env.NODE_ENV === 'production' ? [cssnano()] : [])
+		//...(process.env.NODE_ENV === 'production' ? [cssnano()] : [])
 	]
 };

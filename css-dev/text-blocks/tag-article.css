@@ -82,13 +82,13 @@
             line-height: 1.2lh;
         }
         
-        & figcaption {
+        /* & figcaption {
             display: block;
             font-size: calc(var(--text-font-size) * .8);
             margin-top: .5rem;
             margin-bottom: 2rem;
             text-align: center;
-        }
+        } */
     }
 
         /* & div.spaced-bullet-list + ul > li { */

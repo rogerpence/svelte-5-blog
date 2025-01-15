@@ -4,6 +4,10 @@ export const tags = [
         "counter": 2
     },
     {
+        "tag": "c#",
+        "counter": 1
+    },
+    {
         "tag": "cs",
         "counter": 2
     },
@@ -12,7 +16,7 @@ export const tags = [
         "counter": 2
     },
     {
-        "tag": "javascript",
+        "tag": "javascript'",
         "counter": 1
     },
     {
@@ -21,6 +25,10 @@ export const tags = [
     },
     {
         "tag": "programming",
+        "counter": 1
+    },
+    {
+        "tag": "sql",
         "counter": 1
     }
 ]
