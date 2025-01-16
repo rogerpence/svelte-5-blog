@@ -10,7 +10,8 @@
         <a href="/posts/demo">posts/demo</a>
     </nav>
     <a href='/'><h1>Roger Pence</h1></a>
-    <h2>A meatball at the keyboard</h2>
+    <h2>Sveltekit work in progress</h2>
+    <!-- <h2>A meatball at the keyboard</h2> -->
 
 </header>
 
