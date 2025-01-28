@@ -1,6 +1,6 @@
 
 
-:root {
+    :root {
     --blue-7: #1c7ed6;
     --red-9: #c92a2a;
     --yellow-5: #fcc419;
@@ -22,73 +22,73 @@
     --ease-in-out-3: cubic-bezier(.5, 0, .5, 1);
 }
 
-/* @layer base, design, article; */
+/* @layer base, design, article;  */
 
-/* 1. Use a more-intuitive box-sizing model */
+    /* 1. Use a more-intuitive box-sizing model */
 
-*, *::before, *::after {
+    *, *::before, *::after {
     box-sizing: border-box;
   }
 
-/* 2. Remove default margin */
+    /* 2. Remove default margin */
 
-* {
+    * {
     margin: 0;
   }
 
-body {
+    body {
     /* 3. Add accessible line-height */
     line-height: 1.5;
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
   }
 
-/* 5. Improve media defaults */
+    /* 5. Improve media defaults */
 
-img, picture, video, canvas, svg {
+    img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
   }
 
-/* 6. Inherit fonts for form controls */
+    /* 6. Inherit fonts for form controls */
 
-input, button, textarea, select {
+    input, button, textarea, select {
     font: inherit;
   }
 
-/* 7. Avoid text overflows */
+    /* 7. Avoid text overflows */
 
-p, h1, h2, h3, h4, h5, h6 {
+    p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
 
-/* 8. Improve line wrapping */
+    /* 8. Improve line wrapping */
 
-p {
+    p {
     text-wrap: pretty;
   }
 
-h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
   }
 
-/*
+    /*
     9. Create a root stacking context
   */
 
-/* #root, #__next {
+    /* #root, #__next {
     isolation: isolate;
   } */
 
-/*
+    /*
      I added this. 
   */
 
-button {
+    button {
     all: unset;
   }
 
-@media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
         :root {
             color-scheme: dark;
 
@@ -127,11 +127,11 @@ button {
        }
     }
 
-body {
+    body {
         font-family: sans-serif;
       }
 
-@media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
         :root {
             /* background-color: red; */
 
@@ -176,11 +176,11 @@ body {
         }
     }
 
-/*
+    /*
  This is the css for the design/colors route. It isn't used by the design system.
  */
 
-@keyframes fadeIn {
+    @keyframes fadeIn {
         from { 
             opacity: 0;
             transform: translate(-50%, -20px);
@@ -191,7 +191,7 @@ body {
         }
     }
 
-@keyframes fadeOut {
+    @keyframes fadeOut {
         from { 
             opacity: 1;
             transform: translate(-50%, 0);
@@ -202,7 +202,7 @@ body {
         }
     }
 
-@keyframes copied-feedback {
+    @keyframes copied-feedback {
         0% {
             transform: scale(1);
         }
@@ -216,7 +216,7 @@ body {
         }
     }
 
-@media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
         :root {
     
             .background-dark {
@@ -331,7 +331,7 @@ body {
         }
     }
 
-.copied {
+    .copied {
         color: black;
 /*        opacity: 0;
         height: 1rem; */
@@ -348,7 +348,7 @@ body {
         text-align: center;        
     }
 
-div.design-colors {
+    div.design-colors {
         font-family: Arial, sans-serif;
         margin: 2rem;
         background-color: var(--brown-2);
@@ -426,7 +426,7 @@ div.design-colors {
         }
     }
 
-.toaster {
+    .toaster {
     color: black;
     position: fixed;
     /* top: 20px;
@@ -462,7 +462,7 @@ div.design-colors {
 
 }
 
-.two-col-body {
+    .two-col-body {
     display: flex;
     justify-content: center;
     container-name: content-wrapper;
@@ -507,11 +507,16 @@ div.design-colors {
 
 }
 
-/*
+    div.home-page {
+    margin-inline: var(--vertical-margin);
+    padding: var(--vertical-margin);
+}
+
+    /*
      | Do not assign any colors here! Do that in assign-colors.css. 
      */
 
-article.article {  
+    article.article {  
         /* max-width: 100ch;
         margin-top: 2rem;
         padding: 2rem; */
@@ -600,17 +605,17 @@ article.article {
         } */
     }
 
-/* & div.spaced-bullet-list + ul > li { */
+    /* & div.spaced-bullet-list + ul > li { */
 
-div.spaced-bullet-list + ul > li {
+    div.spaced-bullet-list + ul > li {
             margin-block-end: .5lh;
         }
 
-body {
+    body {
         background-color: var(--background-dark);
     }
 
-header {
+    header {
         grid-area: header;
         margin-inline: var(--vertical-margin);
         padding: var(--vertical-margin);
@@ -628,7 +633,7 @@ header {
 
      }
 
-nav {
+    nav {
         display: flex;
         justify-content: flex-end;
         gap: 1rem;
@@ -644,63 +649,89 @@ nav {
         } 
     }
 
-aside {
+    aside {
         grid-area: sidebar;
         padding: var(--vertical-margin)
     }
 
-article {
+    article {
         grid-area: main;
         padding: var(--vertical-margin)
     }
 
-footer {
+    footer {
         grid-area: footer;
-        padding: var(--vertical-margin)
+        margin-inline: var(--vertical-margin);
+        padding: var(--vertical-margin);
     }
 
-div.home-page {
-    padding-inline: var(--vertical-margin)
-}
-
-/* PrismJS 1.29.0
+    /* PrismJS 1.29.0
 https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+csharp+powershell+python+typescript */
 
-code[class*=language-],pre[class*=language-]{color:#ccc;background:0 0;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}
+    code[class*=language-],pre[class*=language-]{color:#ccc;background:0 0;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}
 
-pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}
+    pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}
 
-:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}
+    :not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}
 
-:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}
+    :not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}
 
-.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}
+    .token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}
 
-.token.punctuation{color:#ccc}
+    .token.punctuation{color:#ccc}
 
-.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}
+    .token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}
 
-.token.function-name{color:#6196cc}
+    .token.function-name{color:#6196cc}
 
-.token.boolean,.token.function,.token.number{color:#f08d49}
+    .token.boolean,.token.function,.token.number{color:#f08d49}
 
-.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}
+    .token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}
 
-.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}
+    .token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}
 
-.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}
+    .token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}
 
-.token.entity,.token.operator,.token.url{color:#67cdcc}
+    .token.entity,.token.operator,.token.url{color:#67cdcc}
 
-.token.bold,.token.important{font-weight:700}
+    .token.bold,.token.important{font-weight:700}
 
-.token.italic{font-style:italic}
+    .token.italic{font-style:italic}
 
-.token.entity{cursor:help}
+    .token.entity{cursor:help}
 
-.token.inserted{color:green}
+    .token.inserted{color:green}
 
-@keyframes shake-z {
+    svg  {
+        width: 32px;
+        height: 32px;
+        fill: white !important;
+
+        & path {
+            stroke: white;
+        }
+
+    }
+
+    .svg-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* color: white; */
+    }
+
+    .svg-wrapper > a {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .svg-wrapper > a > svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    @keyframes shake-z {
   0%, 100% { transform: rotate(0deg) }
   20% { transform: rotate(-2deg) }
   40% { transform: rotate(2deg) }
@@ -708,7 +739,7 @@ pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}
   80% { transform: rotate(2deg) }
 }
 
-@media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
 
     :root {
         --shadow-color: 220 40% 2%;

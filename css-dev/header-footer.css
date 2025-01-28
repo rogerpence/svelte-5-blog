@@ -49,5 +49,6 @@
     
     footer {
         grid-area: footer;
-        padding: var(--vertical-margin)
+        margin-inline: var(--vertical-margin);
+        padding: var(--vertical-margin);
     }

@@ -1,11 +1,7 @@
 ---
 title: Demo page for css
 description: Astro notes
-tags:
-  - astro
-  - powershell
-  - cs
-  - css
+tags: ['astro', 'powershell', 'cs']
 date_added: 2023-04-16
 date_updated: 2023-04-16
 date_published: 

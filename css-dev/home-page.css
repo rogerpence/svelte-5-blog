@@ -1,3 +1,4 @@
 div.home-page {
-    padding-inline: var(--vertical-margin)
+    margin-inline: var(--vertical-margin);
+    padding: var(--vertical-margin);
 }

@@ -1,19 +1,44 @@
-/* @layer base, design, article; */
+/* @layer base, design, article;  */
 
-@import "./reset.css"; 
-@import "./color-base.css";
-@import "./defaults.css"; 
+    @import "./reset.css"; 
+    @import "./color-base.css";
+    @import "./defaults.css";     
+    @import "./design-colors.css"; 
 
+    @import "./components/toaster.css"; 
 
-@import "./design-colors.css"; 
+    @import "./two-col-body.css";
+    @import "./home-page.css";
 
+    @import "./text-blocks/tag-article.css"; 
+    @import "./header-footer.css";
 
-@import "./components/toaster.css"; 
+    @import "./vendor/prism.css";
 
-@import "./two-col-body.css";
+    svg  {
+        width: 32px;
+        height: 32px;
+        fill: white !important;
 
-@import "./text-blocks/tag-article.css"; 
-@import "./header-footer.css";
-@import "./home-page.css";
+        & path {
+            stroke: white;
+        }
 
-@import "./vendor/prism.css";
+    }
+    .svg-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* color: white; */
+    }
+
+    .svg-wrapper > a {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+    }
+  
+    .svg-wrapper > a > svg {
+        width: 24px;
+        height: 24px;
+    }

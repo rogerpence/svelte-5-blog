@@ -12,3 +12,5 @@ const outputFile = path.join(outputDirectory, 'markdown-map.ts')
 const markdownObjects = await getMarkdownObjects(markDownDirectory);
 
 utes.writeObjectsToFile(markdownObjects, outputFile, 'content')
+process.exit(0);
+

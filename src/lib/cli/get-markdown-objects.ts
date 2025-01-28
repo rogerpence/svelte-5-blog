@@ -6,6 +6,7 @@ import {RPBlogSchema, type RPBlogPost } from "./RPBlogPost.js";
 
 export async function getMarkdownObjects(markDownDirectory: string ) : Promise<MarkdownResult<RPBlogPost>[]> {
   const markdownObjects : MarkdownResult<RPBlogPost>[] = [];
+  const errors: string[] = []
   try {
       const childFolders: string[] = await utes.getChildFolders(markDownDirectory);
 
@@ -26,11 +27,11 @@ export async function getMarkdownObjects(markDownDirectory: string ) : Promise<M
                 result.fullPath = path.join(markDownDirectory, folder, file.name);
                 result.slug = `/${folder}/${file.name.replace('.md', '')}`;
                 result.folder = folder;
+                console.log(`RESULT: ${file.name}`, result)
 
                 if (result.success) {
-                  markdownObjects.push(result);
+                   markdownObjects.push(result);
                   console.log(ansis.green(`Success with file: ${folder}/${file.name}`))
-
                 }
                 else {
                   markdownObjects.push(result);
@@ -42,11 +43,23 @@ export async function getMarkdownObjects(markDownDirectory: string ) : Promise<M
           }         
         }
       }
-  } catch (error) {
-    console.error("An error occurred:", error);
-  }
+    } catch (error) {
+      console.error(`An error occurred: ${error.reason}`);
+      //errors.push(error.reason);
+      process.exit(1);
+    }
+ 
+    // if (errors.length > 0) {
+    //   for (const error of errors) {
+    //     console.error(error);
+    //   }        
+    //   process.exit(1);
+    // }
+    // else {
+      return markdownObjects;
+//    }
 
-  return markdownObjects;
+  
 }
 
 // import { fileURLToPath } from 'node:url';

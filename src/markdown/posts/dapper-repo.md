@@ -1,9 +1,7 @@
 ---
 title: "A simple Dapper repository"
 description: "A simple Dapper repository. This was created originally for the ASNA  C# version of the Downloads repository."
-tags:
-    - 'c#'
-    - 'sql'
+tags: ['c#', 'sql']
 date_added: 2023-04-16T05:01:18
 date_updated: 2023-04-16T05:01:18
 date_published: 
