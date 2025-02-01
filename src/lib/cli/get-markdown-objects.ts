@@ -95,9 +95,9 @@ export async function getMarkdownObjectsSAVE(markDownDirectory: string): Promise
                             const { frontMatter, content } = await utes.parseMardkdownFile(path.join(documentFolder, file.name));
 
                             const result = getMarkdownObject<RPBlogPost>(frontMatter, content, RPBlogSchema);
-                            result.fullPath = path.join(markDownDirectory, folder, file.name);
-                            result.slug = `/${folder}/${file.name.replace('.md', '')}`;
-                            result.folder = folder;
+                            result.mapInfo.fullPath = path.join(markDownDirectory, folder, file.name);
+                            result.mapInfo.slug = `/${folder}/${file.name.replace('.md', '')}`;
+                            result.mapInfo.folder = folder;
                             console.log(`RESULT: ${file.name}`, result)
 
                             if (result.success) {

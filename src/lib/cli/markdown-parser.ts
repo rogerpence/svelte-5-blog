@@ -8,15 +8,19 @@ export type MarkdownObject<T> = {
   content: string;
 };
 
-export type MarkdownResult<T> = {
+export type MarkdownMapInfo = {
   success: boolean;
   errorType?: string;
-  data?: MarkdownObject<T>;
   status?: string;
   issues?: string[];
   fullPath?: string;
   slug?: string;
   folder?: string;
+}
+
+export type MarkdownResult<T> = {
+  data?: MarkdownObject<T>;
+  mapInfo: MarkdownMapInfo;
 };
 
 const refineZodErrorMessage = (error: ZodError) => {  
@@ -89,13 +93,15 @@ export const getMarkdownObject = <T>(frontMatter: string[], content: string[], s
   try {        
     const fm = schema.parse(parsed);
     return {
-      success: true,
       data: {
         frontMatter: fm,
         content: content.join('\n'),
       },
-      errorType: 'No error',
-      status: 'success'
+      mapInfo: {
+        success: true,
+        errorType: 'No error',
+        status: 'success'
+      }
     };
 
   } catch (error: any ) {
