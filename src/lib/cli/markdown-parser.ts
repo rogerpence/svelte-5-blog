@@ -6,7 +6,7 @@ import { z, ZodError, ZodErrorMap, ZodIssueCode  } from 'zod';
 export type MarkdownObject<T> = {
   frontMatter: T;
   content: string;
-};
+} | null;
 
 export type MarkdownMapInfo = {
   success: boolean;
@@ -16,12 +16,12 @@ export type MarkdownMapInfo = {
   fullPath?: string;
   slug?: string;
   folder?: string;
-}
+} | null
 
 export type MarkdownResult<T> = {
   data?: MarkdownObject<T>;
   mapInfo: MarkdownMapInfo;
-};
+} | null;
 
 const refineZodErrorMessage = (error: ZodError) => {  
   // Zod's "custom" error messages are still a little wonky. 

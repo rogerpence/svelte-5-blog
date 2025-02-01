@@ -5,7 +5,6 @@ import ansis from 'ansis';
 import { getMarkdownObject, type MarkdownResult } from './markdown-parser.js';
 import { RPBlogSchema, type RPBlogPost } from "./RPBlogPost.js";
 
-
 async function processMarkdownFile(file: Dirent,
                                    folder: string,
                                    documentFolder: string,
@@ -13,11 +12,14 @@ async function processMarkdownFile(file: Dirent,
     
     const { frontMatter, content } = await utes.parseMardkdownFile(path.join(documentFolder, file.name));
 
-    const result = getMarkdownObject<RPBlogPost>(frontMatter, content, RPBlogSchema);
+    const result: MarkdownResult<RPBlogPost> = await getMarkdownObject<RPBlogPost>(frontMatter, content, RPBlogSchema);
+    if (!result || !result.mapInfo) {
+        throw new Error(`No result or mapInfo found`);
+    }
 
-    result.fullPath = path.join(markDownDirectory, folder, file.name);
-    result.slug = `/${folder}/${file.name.replace('.md', '')}`;
-    result.folder = folder;
+    result.mapInfo.fullPath = path.join(markDownDirectory, folder, file.name);
+    result.mapInfo.slug = `/${folder}/${file.name.replace('.md', '')}`;
+    result.mapInfo.folder = folder;
 
     return result;
 }
@@ -37,28 +39,21 @@ export async function getMarkdownObjects(markDownDirectory: string): Promise<Mar
             if (files) {
                 for (const file of files) {
                     if (file.isFile()) {
-
-                        let result = null;
-
                         try {
-                            result = await processMarkdownFile(file, folder, documentFolder, markDownDirectory);
-                            console.log('result', result)
-
-                        }
-                        catch (error) {
-                            console.error(`An error occurred: ${error.reason}`);
-                            errors.push(`${file.name}: ${error.reason}`);
-                        }
-
-                        if (result) {
-                            markdownObjects.push(result);
-                            if (result.success) {
-                                console.log(ansis.green(`Success with file: ${folder}/${file.name}`))
+                            const result = await processMarkdownFile(file, folder, documentFolder, markDownDirectory);
+                            if (!result || !result.mapInfo) {
+                                throw new Error('No result or mapInfo found');
                             }
                             else {
-                                console.log(ansis.red(`Error with file: ${folder}/${file.name}`))
-                                console.log(ansis.red(`${result.status}`))
+                                markdownObjects.push(result);
+                                if (result.mapInfo.success) {
+                                    console.log(ansis.green(`Success with file: ${folder}/${file.name}`))
+                                }    
                             }
+                        }
+                        catch (error: any) {
+                            console.error(`An error occurred: ${error.reason}`);
+                            errors.push(`${file.name}: ${error.reason}`);
                         }
                     }
                 }

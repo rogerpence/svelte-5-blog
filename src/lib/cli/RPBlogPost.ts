@@ -14,4 +14,4 @@ export const RPBlogSchema = z.object({
     pinned: z.boolean()
 }).strict();
  
-export type RPBlogPost = z.infer<typeof RPBlogSchema>;
+export type RPBlogPost = z.infer<typeof RPBlogSchema> | null;
