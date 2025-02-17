@@ -1,6 +1,6 @@
 import * as utes from "./helpers.js"; 
 import path from 'path';
-import {getMarkdownObjects} from './get-markdown-objects.js'
+import {getMarkdownObjects} from './get-markdown-objects.ts'
 
 console.log('Creating markdown map')
 

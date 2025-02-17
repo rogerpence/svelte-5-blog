@@ -1,4 +1,3 @@
-
 //import {type MarkdownResult, type MarkdownObject} from './markdown-parser.ts';
 import {RPBlogSchema, type RPBlogPost } from "./RPBlogPost.js";
 import {content as rawContent}  from '$lib/data/markdown-map.ts';
@@ -55,7 +54,6 @@ const sorted = content.reduce((acc: FolderAccumulator, item: MarkdownResult<RPBl
             folder: item.folder as string
         } 
     );
-
 
     return acc;  // Add missing return statement
 }, {} as FolderAccumulator);

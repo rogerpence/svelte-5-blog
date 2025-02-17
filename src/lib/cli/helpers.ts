@@ -5,11 +5,34 @@ import ansis from "ansis";
 import { promises as fsa } from 'fs';
 import yaml from 'js-yaml';
 
+
 interface DirectoryItem {
     name: string;
     isDirectory: () => boolean;
     // path?: string; // Add if you need the path
 }
+
+interface TagObject {
+  name: string;
+  count: number;
+}
+
+interface Post {
+  tags: string[];
+  [key: string]: any; // Allows for other properties in the post object
+}
+
+export type FilenameItem = {
+  name: string;
+  isFile: () => boolean;
+  isDirectory: () => boolean;
+} | null 
+
+interface ParsedMarkdown {
+  frontMatter: any; // Using 'any' for simplicity. Consider making a dedicated type
+  content: string[];
+}
+
 
 export const rootDir = path.dirname(__filename).replace("\\src\\lib\\cli", "");
 export const libDir = path.join(rootDir, "\\src\\lib")
@@ -25,18 +48,8 @@ export async function getChildFolders(folderPath: string): Promise<string[]> {
       console.error('Error reading directory:', error);
       return []; // Return an empty array in case of error
     }
-  }
-
-
-interface TagObject {
-  name: string;
-  count: number;
 }
 
-interface Post {
-  tags: string[];
-  [key: string]: any; // Allows for other properties in the post object
-}
 
 
 export const get_tag_objects = (objarr: Post[]): TagObject[] => {
@@ -78,13 +91,6 @@ export function truncate_path(full_filename: string, start_folders: string[]): s
     return result_tokens.join("\\");
 }
 
-interface FilenameItem {
-  name: string;
-  isFile: () => boolean;
-  isDirectory: () => boolean;
-}
-
-
 export const getFilenames = (targetDirectory: string): FilenameItem[] | undefined => {
     fs.access(targetDirectory, (error) => {
       if (error) {
@@ -101,12 +107,6 @@ export const getFilenames = (targetDirectory: string): FilenameItem[] | undefine
       return undefined;
     }
 };
-
-
-interface ParsedMarkdown {
-    frontMatter: any; // Using 'any' for simplicity. Consider making a dedicated type
-    content: string[];
-}
 
 export const parseMardkdownFile = async (filename: string): Promise<ParsedMarkdown> => {
 	const frontMatter: string[] = [];
@@ -236,8 +236,8 @@ export class Pager<T> {
   rowCount: number;
   pageSize: number;
   totalPages: number;
-  pageFirstRowNumber: number;
-  pageLastRowNumber: number;
+  pageFirstRowNumber: number = 0;
+  pageLastRowNumber: number = 0;
   arr: T[];
 
   constructor(arr: T[], pageSize: number) {

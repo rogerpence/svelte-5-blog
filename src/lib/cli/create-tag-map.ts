@@ -7,31 +7,31 @@ import * as utes from "./helpers.js";
 
 const content = rawContent as MarkdownResult<RPBlogPost>[];
 
-export type MarkdownObject<T> = {
-    frontMatter: T;
-    content: string;
-};
+// export type MarkdownObject<T> = {
+//     frontMatter: T;
+//     content: string;
+// };
   
-export type MarkdownResult<T> = {
-    success: boolean;
-    errorType?: string;
-    data?: MarkdownObject<T>;
-    status?: string;
-    issues?: string[];
-    fullPath?: string;
-    slug?: string;
-    folder?: string;
-};
+// export type MarkdownResult<T> = {
+//     success: boolean;
+//     errorType?: string;
+//     data?: MarkdownObject<T>;
+//     status?: string;
+//     issues?: string[];
+//     fullPath?: string;
+//     slug?: string;
+//     folder?: string;
+// };
  
-interface ContentItem {
-    title: string; 
-    description: string; 
-    tags: string; 
-    content: string; 
-    fullPath: string; 
-    slug: string; 
-    folder: string; 
-}
+// interface ContentItem {
+//     title: string; 
+//     description: string; 
+//     tags: string; 
+//     content: string; 
+//     fullPath: string; 
+//     slug: string; 
+//     folder: string; 
+// }
 
 type TagCounter = {
     tag: string;
@@ -55,11 +55,14 @@ function createTagCounters(tags: string[]): TagCounter[] {
 }
 
 let tags: string[] = []
+
 for (const post of content) {
-    tags = [...tags, ...post.data?.frontMatter.tags]    
+    const x = post?.data?.frontMatter?.tags ?? []
+    tags = [...tags, ...post?.data?.frontMatter?.tags ?? []]
 }
 
 //const unique_tags: string[] = Array.from(new Set(tags)).sort();
+
 //console.log(unique_tags)
 //console.log(tags)
 
