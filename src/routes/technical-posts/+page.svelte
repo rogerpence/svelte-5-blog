@@ -1,5 +1,5 @@
 <script lang="ts">
-	import 'rp-utils/console';
+	// import 'rp-utils/console';
 	import { ZodError } from 'zod';
 	import { page } from '$app/state';
 

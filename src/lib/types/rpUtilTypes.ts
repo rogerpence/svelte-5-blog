@@ -1,0 +1,196 @@
+// import { getPagedData } from "./objects";
+// import { writeObjectToFile } from "./filesystem";
+
+// ============================================================================
+// Type Definitions (Alphabetically Sorted)
+// ============================================================================
+
+/**bum
+ * A proxy for the fs.Dirent object. SvelteKit does not allow referencing the FS module in client-side code.
+ */
+export type DirentInfo = {
+	name: string;
+	path: string;
+	parentPath: string;
+};
+
+/**
+ * Return type for the divMod function containing both division result and modulo.
+ */
+export type DivMod = {
+	/** The quotient (result of integer division) */
+	quotient: number;
+	/** The remainder (modulo) */
+	remainder: number;
+};
+
+/**
+ *
+ * Represents a complete index object that extends frontmatter with additional metadata.
+ *
+ * This type uses TypeScript's intersection (`&`) to combine all properties from the
+ * generic frontmatter type `T` with index-specific properties.
+ *
+ * @template T - The frontmatter type
+ *
+ * @remarks
+ * This type includes all properties from `T` plus four additional properties:
+ * - `content`: The full markdown content
+ * - `locale`: Language/region identifier
+ * - `slug`: URL-friendly identifier
+ * - `folder`: Directory path
+ *
+ * For a version without the `content` property, see {@link NavigationObject}.
+ *
+ * @example
+ * Creating an IndexObject with TechnicalNoteFrontmatter
+ * ```typescript
+ * const indexObj: IndexObject<TechnicalNoteFrontmatter> = {
+ *   All TechnicalNoteFrontmatter properties:
+ *   title: 'My Post',
+ *   description: 'A description',
+ *   date_created: '2025-01-01',
+ *   date_updated: '2025-01-02',
+ *   date_published: null,
+ *   pinned: false,
+ *   tags: ['javascript'],
+ *   Plus IndexObject-specific properties:
+ *   content: '# Markdown content here',
+ *   locale: 'en',
+ *   slug: '/technical-posts/my-post',
+ *   folder: 'technical-posts'
+ * };
+ * ```
+ * @see {@link NavigationObject} for a version without content
+ * @see {@link PagerObj} for paginated results containing NavigationObject
+ */
+export type IndexObject<T> = T & {
+	content: string;
+	locale: string;
+	slug: string;
+	folder: string;
+};
+
+/**
+ * Represents a markdown object with direent meta info.
+ *
+ * @template T - The validated type of the frontmatter object
+ */
+export type MarkdownDocument<T extends Record<string, any>> = {
+	dirent: DirentInfo;
+	markdownObject: MarkdownObject<T>;
+};
+
+/**
+ * Represents a markdown file with its file system information and parsed content.
+ * The frontmatter is untyped (Record<string, any>) until validated.
+ */
+export type MarkdownFileResult = {
+	/** File system directory entry information */
+	dirent: DirentInfo;
+	/** Parsed markdown content with untyped frontmatter */
+	markdownObject: {
+		frontMatter: Record<string, any>;
+		content: string;
+	};
+};
+
+/**
+ * Represents a validated markdown file with strongly-typed frontmatter.
+ *
+ * @template T - The validated type of the frontmatter object
+ */
+export type MarkdownObject<T extends Record<string, any>> = {
+	content: string;
+	frontMatter: T;
+};
+
+/**
+ * Result of validating markdown files against a Zod schema.
+ * Contains validation statistics, errors, and successfully validated objects.
+ *
+ * @template T - The validated type of the frontmatter object
+ */
+export type MarkdownObjectsValidState<T extends Record<string, any>> = {
+	/** Total number of files found */
+	filesFound: number;
+	/** Number of files that passed validation */
+	filesValid: number;
+	/** Array of validation error messages */
+	validationErrors: string[];
+	/** Array of successfully validated markdown files with typed frontmatter */
+	validatedObjects: MarkdownDocument<T>[];
+};
+
+/**
+ * Result of parsing multiple markdown files from a directory.
+ * Separates successfully parsed files from failed ones.
+ */
+export type MarkdownParseResult = {
+	/** Array of successfully parsed markdown files */
+	successful: MarkdownFileResult[];
+	/** Array of files that failed to parse with error information */
+	failed: Array<{
+		filename: string;
+		dirent: DirentInfo;
+		error: string;
+	}>;
+};
+
+/**
+ * @template T
+ */
+export type NavigationObject<T> = Omit<IndexObject<T>, 'content'>;
+
+/**
+ * Represents the result of a pagination operation containing page data and metadata. See {@link getPagedData}
+ * @template T returns {PagerObj<T>} Object containing paginated data and metadata.
+ * @property {number} pageNumber - The current page number (1-based)
+ * @property {boolean} isFirstPage - True if this is the first page
+ * @property {boolean} isLastPage - True if this is the last page
+ * @property {number} totalPages - Total number of pages available
+ * @property {number} rowsReturned - Total number of rows for this page returned
+ */
+export type PagerObj<T> = {
+	pagedData: NavigationObject<T>[];
+	pageNumber: number;
+	isFirstPage: boolean;
+	isLastPage: boolean;
+	totalPages: number;
+	rowsReturned: number;
+};
+
+/**
+ * Represents a parsed markdown file with frontmatter and content.
+ *
+ * @template T - The type of the frontmatter object (defaults to Record<string, any>)
+ */
+export interface ParsedMarkdown<T extends Record<string, any> = Record<string, any>> {
+	/** The parsed YAML frontmatter as an object */
+	frontMatter: T;
+	/** The markdown content (everything after the frontmatter) */
+	content: string;
+}
+
+/**
+ * Result of parsing a single markdown file.
+ * Contains either success with parsed data or failure with error information.
+ */
+export type ParseResult =
+	| {
+			success: true;
+			data: { frontMatter: Record<string, any>; content: string };
+	  }
+	| { success: false; error: string; filename: string };
+
+/**
+ * Options for the {@link writeObjectToFile} function.
+ * @property {string} exportName - When provided, creates an export with this name. Should be used only for .ts/.js files.
+ * @property {boolean} compressed - When true, remove whitespace from seralized object.
+ * @property {boolean} log - Write a message to the command line.
+ */
+export type WriteObjectToFileOptions = {
+	exportName?: string;
+	compressed?: boolean;
+	log?: boolean;
+};

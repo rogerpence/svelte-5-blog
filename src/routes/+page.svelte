@@ -1,5 +1,5 @@
 <script lang="ts">
-	import 'rp-utils/console';
+	// import 'rp-utils/console';
 	import { getPosts } from '$lib/remote-funcs/tech-posts.remote';
 	import type { TechnicalNoteFrontmatter } from '$lib/types/app-types';
 

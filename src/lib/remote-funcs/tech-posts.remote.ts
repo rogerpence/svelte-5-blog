@@ -1,6 +1,6 @@
 import { query } from '$app/server';
 
-import { type MarkdownDocument } from 'rp-utils';
+import { type MarkdownDocument } from '$lib/types/rpUtilTypes';
 
 import { TechnicalNoteFrontmatterSchema } from '$lib/types/app-types';
 

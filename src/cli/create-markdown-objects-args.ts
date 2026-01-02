@@ -12,7 +12,7 @@ import {
 	deleteFile
 } from 'rp-utils';
 
-import { TechnicalNoteFrontmatterSchema } from '../types/app-types';
+import { TechnicalNoteFrontmatterSchema } from '../lib/types/app-types';
 
 const cmdLineArgs = [
 	{

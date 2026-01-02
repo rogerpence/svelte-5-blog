@@ -94,7 +94,12 @@ const config = {
 		experimental: {
 			remoteFunctions: true
 		},
-		alias: {}
+		alias: {
+			$components: 'src/lib/components'
+			// $cmdline: 'src/lib/cmd-line',
+			// $data: 'src/lib/data',
+			// $routes: 'src/routes'
+		}
 	},
 	compilerOptions: {
 		experimental: {

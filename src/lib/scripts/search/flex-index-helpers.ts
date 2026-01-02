@@ -1,5 +1,7 @@
 import { type TechnicalNoteFrontmatter } from '$lib/types/app-types';
-import { type IndexObject } from 'rp-utils';
+//import { type IndexObject } from 'rp-utils';
+import { type IndexObject } from '$lib/types/rpUtilTypes';
+
 import FlexSearch, { type Index } from 'flexsearch';
 
 // All indexed markdown files or HTML content objects must have this shape.
