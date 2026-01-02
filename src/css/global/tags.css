@@ -1,0 +1,93 @@
+:root {
+
+/* https://www.marcbacon.com/tools/clamp-calculator/ */
+
+/* both bases 18px
+   32, 48.75,  600px, 1440px
+*/
+    --font-size-fluid-h1: clamp(1.778rem, 1.113rem + 1.994vw, 2.708rem);
+
+/* both bases 18px
+   28, 42,  600px, 1440px
+*/
+    --font-size-fluid-h2: clamp(1.556rem, 1rem + 1.667vw, 2.333rem);
+
+/* both bases 18px
+   24, 36.75,  600px, 1440px
+*/
+    --font-size-fluid-h3: clamp(1.333rem, 0.827rem + 1.518vw, 2.042rem);
+
+/* both bases 18px
+   28, 42,  600px, 1440px
+*/
+    --font-size-fluid-h4: clamp(1.222rem, 0.796rem + 1.28vw, 1.819rem);
+    
+/*
+https://chrisburnell.com/clamp-calculator/
+142, 20, 600, 1440, 18, vw 
+*/ 
+    
+    --font-size-fluid-p: clamp(0.9rem, 0.333rem + 1vw, 1rem); 
+    /* --font-size-fluid-p: clamp(0.778rem, 0.619rem + 0.476vw, 1rem) */
+
+    --font-size-bq: clamp(1rem, 0.333rem + 1vw, 1.1rem);
+}
+
+h1 {
+    font-size: var(--font-size-fluid-h1);
+    margin-bottom: 3rem;
+} 
+
+h2 {
+    font-size: var(--font-size-fluid-h2);
+} 
+
+h3 {
+    font-size: var(--font-size-fluid-h3);
+} 
+
+h4 {
+    font-size: var(--font-size-fluid-h4);
+} 
+
+p, li {
+    font-size: var(--font-size-fluid-p);
+}
+
+blockquote {
+    font-size: var(--font-size-bq);
+}
+
+a {
+  text-decoration-thickness: calc(1em / 6);
+  text-underline-offset: calc(1em / 4);
+} 
+
+/* p:last-of-type {
+    margin-block-end: 3em;
+} */
+
+blockquote {
+  /* font: 14px/22px normal helvetica, sans-serif; */
+  /* margin-top: .6rem; */
+  margin-bottom: 10px;
+  margin-left: 1rem;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+}
+
+
+/* p tag followed by a ul tag */
+p:has(+ ul) {
+
+}
+
+/* ul tag prededed by a p tag. */
+p + ul {
+    margin-block-start: calc(1em / 6);          
+}
+
+
+ul {
+    font-size: inherit;
+}

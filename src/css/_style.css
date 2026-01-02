@@ -1,0 +1,13 @@
+@layer global, layouts, elements, components, utilities;
+
+/* @import "https://unpkg.com/open-props" layer(global); */
+@import './global/_global.css' layer(global);
+@import './layouts/_layouts.css' layer(layouts);
+@import './elements/_elements.css' layer(elements);
+@import './components/_components.css' layer(components);
+/* @import './utilities/_utilities.css' layer(utiilties); */
+
+
+@import "sv-components/css/next-prev-action/root.css" layer(global);
+@import "sv-components/css/next-prev-action/utilities.css" layer(utilities);
+@import "sv-components/css/next-prev-action/component.css" layer(components);

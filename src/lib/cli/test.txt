@@ -1,0 +1,35 @@
+
+/*
+
+I need type safe command line utility. I'd like to specifiy an object 
+
+const cmdLineArgs = [
+	{
+		name: 'outputFile',
+		type: 'string',
+		default: 'output.text',
+        required: true,
+        value: null
+	},
+	{
+		name: 'inputFile',
+		type: 'string',
+        required: true,
+        value: null
+	},
+	{
+		name: 'lines',
+		type: 'number',
+        required: false,
+        value: null
+	}
+];
+
+for example test.ts is using this utility,l it would be called like: 
+
+    node test.ts -outputFile "roger//output//details.txt" -inputFile "roger//input//details.json"
+
+After processing the command line with that object, the values provided would be assigned to the corresponding key in that object.
+
+*/
+

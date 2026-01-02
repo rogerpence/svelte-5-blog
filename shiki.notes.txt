@@ -1,0 +1,63 @@
+import adapter from '@sveltejs/adapter-auto';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import { mdsvex } from 'mdsvex';
+import { createHighlighter } from 'shiki';
+
+function escapeForSvelteTemplateLiteral(html) {
+    return html
+        .replace(/\\/g, '&#92;') // prevents `\U` etc. from breaking the surrounding template literal
+        .replace(/`/g, '&#96;')  // prevents ending the surrounding `...`
+        .replace(/\$\{/g, '&#36;{'); // prevents `${...}` interpolation
+}
+
+// Create once (top-level await is ok in SvelteKit's ESM config)
+const shiki = await createHighlighter({
+    themes: ['github-dark'],
+    langs: [
+        'text',
+        'bash',
+        'json',
+        'js',
+        'ts',
+        'html',
+        'css',
+        'md',
+        'sql',
+        'powershell'
+    ]
+});
+
+/** @type {import('mdsvex').MdsvexOptions} */
+const mdsvexOptions = {
+    extensions: ['.md'],
+    highlight: {
+        highlighter: (code, lang) => {
+            const language = lang && shiki.getLoadedLanguages().includes(lang) ? lang : 'text';
+
+            const html = shiki.codeToHtml(code, {
+                lang: language,
+                theme: 'github-dark'
+            });
+
+            return escapeForSvelteTemplateLiteral(html);
+        }
+    }
+};
+
+// ...existing code...
+const config = {
+    extensions: ['.svelte', '.md'],
+    preprocess: [mdsvex(mdsvexOptions), vitePreprocess()],
+    kit: {
+        adapter: adapter(),
+        experimental: { remoteFunctions: true },
+        alias: {}
+    },
+    compilerOptions: {
+        experimental: { async: true }
+    }
+};
+
+export default config;
+
+

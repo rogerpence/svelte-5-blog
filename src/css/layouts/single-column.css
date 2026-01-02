@@ -1,0 +1,10 @@
+.single-column {
+    --max-width: 980px;
+    margin-inline: auto;
+    max-width: var(--max-width);
+    outline: 1px solid red;
+    background-color: var(--page-bg-color);
+    padding-inline: var(--padding-inline-text-column);
+    padding-block:  var(--padding-block-text-column);
+
+}

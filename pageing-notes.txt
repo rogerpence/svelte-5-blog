@@ -1,0 +1,133 @@
+import { query } from '$app/server';
+import { z } from 'zod';
+
+import { type TechnicalNoteFrontmatter, type NavigationObject } from '$lib/types/app-types';
+
+import navigationObjectsData from '$lib/data/navigation-objects.json';
+
+const navigationObjects = navigationObjectsData as NavigationObject<TechnicalNoteFrontmatter>[];
+
+// Define the schema for the input
+const getTechPostsPageSchema = z.object({
+    page: z.number().int().positive()
+});
+
+export const getTechPostsPage = query(async (input: unknown) => {
+    // Validate and parse the input
+    const { page } = getTechPostsPageSchema.parse(input);
+    
+    // Use the validated page number
+    const pageSize = 10;
+    const start = (page - 1) * pageSize;
+    const end = start + pageSize;
+    
+    const paginatedData = navigationObjects.slice(start, end);
+    
+    return {
+        data: paginatedData,
+        page,
+        totalPages: Math.ceil(navigationObjects.length / pageSize),
+        total: navigationObjects.length
+    };
+});
+
+
+
+<script lang="ts">
+    import { getTechPostsPage } from '$lib/remote-funcs/get-tech-posts-page.remote';
+    
+    let currentPage = $state(1);
+    
+    const result = getTechPostsPage({ page: currentPage });
+</script>
+
+{#await result}
+    <p>Loading...</p>
+{:then data}
+    <h1>Technical Posts - Page {data.page} of {data.totalPages}</h1>
+    
+    {#each data.data as post}
+        <article>
+            <h2>{post.title}</h2>
+            <p>{post.description}</p>
+        </article>
+    {/each}
+    
+    <div>
+        <button 
+            onclick={() => currentPage--} 
+            disabled={currentPage === 1}
+        >
+            Previous
+        </button>
+        <span>Page {currentPage} of {data.totalPages}</span>
+        <button 
+            onclick={() => currentPage++} 
+            disabled={currentPage === data.totalPages}
+        >
+            Next
+        </button>
+    </div>
+{:catch error}
+    <p>Error: {error.message}</p>
+{/await}
+
+
+
+
+// With optional parameters and defaults
+const getTechPostsPageSchema = z.object({
+    page: z.number().int().positive().default(1),
+    pageSize: z.number().int().positive().max(100).default(10),
+    sortBy: z.enum(['date', 'title']).optional(),
+    tags: z.array(z.string()).optional()
+});
+
+export const getTechPostsPage = query(async (input: unknown) => {
+    const { page, pageSize, sortBy, tags } = getTechPostsPageSchema.parse(input);
+    
+    let filtered = navigationObjects;
+    
+    // Filter by tags if provided
+    if (tags && tags.length > 0) {
+        filtered = filtered.filter(post => 
+            post.tags.some(tag => tags.includes(tag))
+        );
+    }
+    
+    // Sort if requested
+    if (sortBy === 'title') {
+        filtered = filtered.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (sortBy === 'date') {
+        filtered = filtered.sort((a, b) => 
+            new Date(b.date_created).getTime() - new Date(a.date_created).getTime()
+        );
+    }
+    
+    const start = (page - 1) * pageSize;
+    const end = start + pageSize;
+    
+    return {
+        data: filtered.slice(start, end),
+        page,
+        pageSize,
+        totalPages: Math.ceil(filtered.length / pageSize),
+        total: filtered.length
+    };
+});
+
+
+export const getTechPostsPage = query(async (input: unknown) => {
+    try {
+        const { page } = getTechPostsPageSchema.parse(input);
+        
+        // Your logic here
+        
+        return { data: paginatedData, page };
+    } catch (error) {
+        if (error instanceof z.ZodError) {
+            throw new Error(`Invalid input: ${error.errors.map(e => e.message).join(', ')}`);
+        }
+        throw error;
+    }
+});

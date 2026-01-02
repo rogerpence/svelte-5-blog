@@ -1,0 +1,57 @@
+
+
+:root {
+
+        /* @custom-media --media-small       (width <= 768px); 
+        @custom-media --media-medium      (width >  768px) and (width <= 1024px); 
+        @custom-media --media-large       (width > 1024px) and (width <= 1920px); 
+        @custom-media --media-jumbo       (width > 1920px);
+
+        @custom-media --lt-large       (width <  1024px);
+        @custom-media --eq-small       (width <= 768px); 
+        @custom-media --eq-medium      (width >  768px) and (width <= 1024px); 
+        @custom-media --eq-large       (width > 1024px) and (width <= 1920px); 
+        @custom-media --eq-jumbo       (width > 1920px); */
+
+    background-color: lightgray;
+    font-family: sans-serif;
+
+    --default:                 red;
+
+    --base-line-height: 1.5; 
+    --base-font-size: 16px;
+
+
+    --brand-color:             #0a2c4c;
+    --accent-color:            #f7640f;
+    --primary-bg-color:        var(--default);
+    --secondary-bg-color:      var(--default);    
+    --page-bg-color:           #dedede;    
+
+    --pre-bg-color:            color-mix(in srgb, var(--page-bg-color), black 10%);
+    --code-bg-color:           color-mix(in srgb, var(--page-bg-color), black 5%);
+    --header-bg-color:         #fff;
+    --footer-bg-color:         #2b2b2b;
+
+    /* --nav-bg-color:            var(--gray-3);         */
+    --nav-bg-color-hover:      color-mix(in srgb, var(--nav-bg-color), white 25%);
+    /* --nav-color:               var(--gray-9); */
+    /* --nav-item-hover-bg-color: var(--gray-7); */
+    --sidebar-bg-color:        #ebebeb;
+
+    --h1-color: #092e42;
+
+    --padding-inline-text-column: 3rem;
+    --padding-block-text-column: 1rem;
+
+    /* 
+    This needs to go somewhere.
+     */
+    /* font-size: var(--base-font-size);
+    text-size-adjust: none;
+    line-height: var(--base-line-height);  */
+
+
+}
+
+

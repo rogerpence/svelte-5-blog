@@ -1,16 +1,22 @@
-<script>
-    import Footer from '$lib/components/Footer.svelte';
-    import Header from '$lib/components/Header.svelte';
+<script lang="ts">
+	import favicon from '$lib/assets/favicon.svg';
+	import MainNavBar from '$lib/components/MainNavBar.svelte';
+	import '../style.css';
 
-    let { children } = $props();    
+	let { children } = $props();
 
-    import '../main.css';
+	function handleTestClick(id: string) {
+		console.log(id);
+	}
 </script>
 
-<div class="main-wrapper">
-    <Header></Header>
+<svelte:head>
+	<title>MDSVEX exmaple</title>
+	<link rel="icon" href={favicon} />
+</svelte:head>
 
-    {@render children()}
+<MainNavBar onTestClick={handleTestClick}></MainNavBar>
 
-    <Footer></Footer>
-</div>
+<div>This is a sentence.</div>
+
+{@render children?.()}

@@ -1,0 +1,19 @@
+	@scope (div.technical-doc) {
+		:scope {
+			padding: 3rem;
+		}
+
+		pre.shiki {
+			padding: 1rem !important;
+            border-radius: 5px;
+		}
+
+		pre {
+			overflow-x: auto;
+		}
+
+        div.content-wrapper {
+            margin-inline: auto;
+            max-width: 80ch;
+        }
+	}

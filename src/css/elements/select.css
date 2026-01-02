@@ -1,0 +1,41 @@
+/* Styling the <select> element itself */
+select {
+  width: 200px; /* Set a specific width */
+  padding: 8px 12px; /* Add internal spacing */
+  border: 1px solid #ccc; /* Define a border */
+  border-radius: 4px; /* Round the corners */
+  background-color: #f8f8f8; /* Set a background color */
+  color: #333; /* Set text color */
+  font-size: 16px; /* Adjust font size */
+  line-height: 1.5; /* Set line height for text */
+  cursor: pointer; /* Indicate it's clickable */
+
+  /* Remove default browser styling for a more consistent look */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Optionally, add a custom background image for the dropdown arrow */
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%20197.3l-11.4-11.4c-2.4-2.4-6.2-2.4-8.6%200l-123.6%20123.6c-2.4%202.4-6.2%202.4-8.6%200l-123.6-123.6c-2.4-2.4-6.2-2.4-8.6%200L5.4%20197.3c-2.4%202.4-2.4%206.2%200%208.6l138%20138c2.4%202.4%206.2%202.4%208.6%200l138-138c2.4-2.4%202.4-6.2%200-8.6z%22%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+
+/* Styling the <option> elements within the dropdown */
+select option {
+  padding: 8px 12px; /* Add internal spacing */
+  background-color: #fff; /* Set background color for options */
+  color: #333; /* Set text color for options */
+}
+
+/* Styling the <select> on hover or focus */
+select:hover {
+  border-color: #888;
+}
+
+select:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #007bff; /* Highlight border on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add a subtle shadow */
+}

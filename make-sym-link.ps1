@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -path "C:\Users\thumb\Documents\projects\svelte\mdsvex\src\content\technical-posts" -target "C:\Users\thumb\Documents\resilio-envoy\Obsidian\brainiac\technical-posts"

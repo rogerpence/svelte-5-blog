@@ -1,0 +1,168 @@
+/* --- Basic Setup & Variables (Optional but recommended) --- */
+:root {
+  --nav-bg: #2c3e50;         /* Dark blue-gray for the main bar */
+  --nav-text: #ffffff;       /* White text for the main bar */
+  --nav-hover-bg: #34495e;   /* Slightly lighter bg for hover */
+  --dropdown-bg: #ffffff;    /* White background for dropdowns */
+  --dropdown-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  --dropdown-text: #333333;  /* Dark text for dropdown items */
+  --dropdown-hover-bg: #f4f4f9; /* Light gray for dropdown item hover */
+  --dropdown-separator: #eeeeee;
+  --subtext-color: #666666;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f2f5; /* A light background to see the menu clearly */
+}
+
+/* --- Main Navigation Bar --- */
+.nav__list {
+  display: flex; /* Arrange top-level items horizontally */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--nav-bg);
+  height: 60px; /* Give the nav bar a fixed height */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative; /* Context for z-index */
+  z-index: 1000;
+}
+
+/* --- Top-Level Menu Items --- */
+.nav__list .dropdown__item {
+  /* This is the parent for each dropdown menu */
+  position: relative;
+}
+
+.nav__list .dropdown__item .nav__link {
+  /* This is the visible, clickable top-level item */
+  display: flex;
+  align-items: center;
+  height: 100%; /* Make it fill the parent li's height */
+  padding: 0 1.5rem;
+  color: var(--nav-text);
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav__list .dropdown__item .nav__link:hover {
+  background-color: var(--nav-hover-bg);
+}
+
+/* Style the dropdown arrow icon */
+.nav__list .dropdown__item .nav__link svg {
+  height: 1rem;
+  margin-left: 0.5rem;
+  fill: var(--nav-text);
+  transition: transform 0.2s ease;
+}
+
+/* Rotate arrow on hover */
+.nav__list .dropdown__item:hover .nav__link svg {
+    transform: rotate(180deg);
+}
+
+
+/* --- Dropdown Menu (Hidden by default) --- */
+.nav__list .dropdown__menu {
+  /* Core dropdown styling and positioning */
+  position: absolute;
+  top: 100%; /* Position right below the parent */
+  left: 0;
+  min-width: 280px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: var(--dropdown-bg);
+  border-radius: 0 0 8px 8px;
+  box-shadow: var(--dropdown-shadow);
+  border: 1px solid var(--dropdown-separator);
+  border-top: none; /* No top border as it connects to the nav */
+
+  /* Hide/show mechanism with transition */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px); /* Start slightly lower for a subtle animation */
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+}
+
+/* --- Show Dropdown on Hover --- */
+.nav__list .dropdown__item:hover > .dropdown__menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* --- Dropdown Menu Content --- */
+
+.dropdown__menu {
+}
+
+/* This spacer adds a small gap between the main nav and the dropdown content */
+.dropdown__menu .nav-spacer {
+  height: 8px; 
+}
+
+.dropdown__menu .dropdown__menu--wrapper {
+/*    background-color: blue;
+   outline: 2px solid green; */
+  padding: 0.5rem 0; /* Vertical padding for the link group */
+}
+
+/* Styling for individual links inside the dropdown */
+.dropdown__menu .dropdown__link,
+.dropdown__menu .navbar { /* Also style the button like a link */
+  display: block;
+  padding: 0.75rem 1.5rem;
+  color: var(--dropdown-text);
+  text-decoration: none;
+  white-space: nowrap; /* Prevent links from wrapping */
+  transition: background-color 0.2s ease;
+  
+  /* Reset button styles */
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.dropdown__menu .dropdown__link:hover,
+.dropdown__menu .navbar:hover { 
+/*   background-color: var(--dropdown-hover-bg); */
+  background-color: red;
+  color: #000;
+}
+
+/* Style for the smaller subtext */
+.dropdown__menu .nav__item_subtext {
+  font-size: 0.8rem;
+  color: var(--subtext-color);
+  margin-top: 0.25rem;
+  font-weight: normal;
+}
+
+/* Style for external link icons */
+.dropdown__menu .dropdown__link i {
+  margin-left: 0.5rem;
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+
+/* Style for the separator <hr> */
+.dropdown__menu .dropdown__menu--separator {
+    margin: 0;
+    padding: 0;
+}
+.dropdown__menu .dropdown__menu--separator hr {
+  border: 0;
+  height: 1px;
+  background-color: var(--dropdown-separator);
+  margin: 0.5rem 0;
+}

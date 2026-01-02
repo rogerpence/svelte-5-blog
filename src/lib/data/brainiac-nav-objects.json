@@ -1,0 +1,5992 @@
+[
+    {
+        "title": "A CRUD repository for MSSQL for JavaScript/TypeScript",
+        "description": "A CRUD repository for MSSQL for JavaScript/TypeScript",
+        "date_created": "2025-05-31T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sql-server",
+            "repository",
+            "mssql"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mssql-repository-upsert",
+        "folder": ""
+    },
+    {
+        "title": "A guide for creating classes in TypeScript/JavaScript",
+        "description": "A guide for creating classes in TypeScript/JavaScript",
+        "date_created": "2025-05-30T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/typescript-classes",
+        "folder": ""
+    },
+    {
+        "title": "A PowerShell version of touch",
+        "description": "A PowerShell version of touch",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/a-powershell-version-of-touch",
+        "folder": ""
+    },
+    {
+        "title": "A pretty CSS checkbox",
+        "description": "A pretty CSS checkbox",
+        "date_created": "2025-08-07T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/pretty-css-checkbox-toggle",
+        "folder": ""
+    },
+    {
+        "title": "A Rust function return type for file IO operations",
+        "description": "A Rust function return type for file IO operations",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-17T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rust-function-return-type-for-file-io-operations",
+        "folder": ""
+    },
+    {
+        "title": "A Rust function that returns a Boolean",
+        "description": "A Rust function that returns a Boolean",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rust-function-return-type-as-boolean",
+        "folder": ""
+    },
+    {
+        "title": "A Vite search-and-replace plugin",
+        "description": "A Vite search-and-replace plugin",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-17T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "vite"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/vite-search-and-replace-plugin",
+        "folder": ""
+    },
+    {
+        "title": "Accessing Podman from another WSL distribution",
+        "description": "Accessing Podman from another WSL distribution",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "containers"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/accessing-podman-from-another-wsl-distribution",
+        "folder": ""
+    },
+    {
+        "title": "Add a marddown frontmatter property with VS Code",
+        "description": "Add a marddown frontmatter property with VS Code",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "vs-code",
+            "frontmatter"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/add-a-marddown-frontmatter-property-with-vs-code",
+        "folder": ""
+    },
+    {
+        "title": "Add custom error messages to HTML forms using the intrinsic error messaging.",
+        "description": "Add custom error messages to HTML forms using the intrinsic error messaging.",
+        "date_created": "2025-06-01T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "html"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/add-custom-error-messages-to-html-form",
+        "folder": ""
+    },
+    {
+        "title": "Adding a new family availability code to ASNA downloads",
+        "description": "Adding a new family availability code to ASNA downloads",
+        "date_created": "2025-07-02T00:00:00.000Z",
+        "date_updated": "2025-12-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "downloads"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/adding-new-downloads-family-availability",
+        "folder": ""
+    },
+    {
+        "title": "Affinity Designer Notes",
+        "description": "Affinity Designer Notes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "design"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/affinity-designer-notes",
+        "folder": ""
+    },
+    {
+        "title": "Affinity Publisher notes",
+        "description": "Affinity Publisher notes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities",
+            "writing"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/affinity-publisher-notes",
+        "folder": ""
+    },
+    {
+        "title": "AI prompting",
+        "description": "AI prompting",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "ai"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/ai-prompting",
+        "folder": ""
+    },
+    {
+        "title": "AI prompts",
+        "description": "AI prompts",
+        "date_created": "2025-09-01T00:00:00.000Z",
+        "date_updated": "2025-11-01T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "ai"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/ai-prompts",
+        "folder": ""
+    },
+    {
+        "title": "Algolia v5 upgrade",
+        "description": "Algolia v5 upgrade",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/algolia-v5-upgrade",
+        "folder": ""
+    },
+    {
+        "title": "An example docker file",
+        "description": "An example docker file",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "docker",
+            "containers",
+            "podman"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/example-docker-file",
+        "folder": ""
+    },
+    {
+        "title": "An explanation of using Rust unusual match function call.",
+        "description": "An explanation of using Rust unusual match function call.",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rust-function-calls-with-match",
+        "folder": ""
+    },
+    {
+        "title": "An intro to SQL PARTITION-BY",
+        "description": "An intro to SQL PARTITION-BY (this specific SQL works on SQL Server but may work on other platforms)",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sql"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sql-partition-by",
+        "folder": ""
+    },
+    {
+        "title": "Animate CSS details-summary element",
+        "description": "Animate CSS details-summary element",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "design"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/animate-css-details-summary-element",
+        "folder": ""
+    },
+    {
+        "title": "Animating the dialog and popover elements",
+        "description": "Animating the dialog and popover elements",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "design",
+            "css",
+            "html"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/animating-the-dialog-and-popover-elements",
+        "folder": ""
+    },
+    {
+        "title": "Animating the dialog element",
+        "description": "Animating the dialog element",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "design",
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/animating-the-dialog-element",
+        "folder": ""
+    },
+    {
+        "title": "argyl-custom-clamp-properties",
+        "description": "argyl-custom-clamp-properties",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/argyl-custom-clamp-properties",
+        "folder": ""
+    },
+    {
+        "title": "ASNA DataGate Component Suite DCS examples",
+        "description": "ASNA DataGate Component Suite DCS examples",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/examples",
+        "folder": ""
+    },
+    {
+        "title": "ASNA Downloads readme handles",
+        "description": "ASNA Downloads readme handles",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-com",
+            "downloads"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/asna-downloads-readme-handles",
+        "folder": ""
+    },
+    {
+        "title": "ASNA downloads release notes conventions",
+        "description": "ASNA downloads release notes conventions",
+        "date_created": "2025-08-14T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "downloads"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/release-notes-readme-file-conventions",
+        "folder": ""
+    },
+    {
+        "title": "asna-com-svelte-upgrade",
+        "description": "asna-com-svelte-upgrade",
+        "date_created": "2025-09-02T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/asna-com-svelte-upgrade",
+        "folder": ""
+    },
+    {
+        "title": "asna-mailing-list-research",
+        "description": "asna-mailing-list-research",
+        "date_created": "2025-10-13T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "mailling-list"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/asna-mailing-list-research",
+        "folder": ""
+    },
+    {
+        "title": "asna-network-info",
+        "description": "asna-network-info",
+        "date_created": "2025-05-20T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/asna-network-info",
+        "folder": ""
+    },
+    {
+        "title": "asna-wings",
+        "description": "asna-wings",
+        "date_created": "2025-05-20T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna/wings"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/asna-wings",
+        "folder": ""
+    },
+    {
+        "title": "ASP.NET WebForms deployment compilation options",
+        "description": "ASP.NET WebForms deployment compilation options",
+        "date_created": "2025-07-08T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "webforms",
+            "asp-net"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/asp-net-deployment-compilation-options",
+        "folder": ""
+    },
+    {
+        "title": "async-await-promise-error-handling",
+        "description": "async-await-promise-error-handling",
+        "date_created": "2025-05-30T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript",
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/async-await-promise-error-handling",
+        "folder": ""
+    },
+    {
+        "title": "Avoiding Outlook's mysterious horizontal lines",
+        "description": "Avoiding Outlook's mysterious horizontal lines",
+        "date_created": "2025-06-26T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "outlook"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/outlook-email-horizonal-lines",
+        "folder": ""
+    },
+    {
+        "title": "Backing up and restoring Supabase locally",
+        "description": "Backing up and restoring Supabase locally",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/backing-up-and-restoring-supabase-locally",
+        "folder": ""
+    },
+    {
+        "title": "Backup notes",
+        "description": "Backup notes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/backup-notes",
+        "folder": ""
+    },
+    {
+        "title": "Backup SQL Server with PowerShell",
+        "description": "Backup SQL Server with PowerShell",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities",
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sql-server-backup-with-powershell",
+        "folder": ""
+    },
+    {
+        "title": "bai-connectivity",
+        "description": "bai-connectivity",
+        "date_created": "2025-07-08T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "customer"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/bai-connectivity",
+        "folder": ""
+    },
+    {
+        "title": "bases notes",
+        "description": "bases notes",
+        "date_created": "2025-10-01T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "bases"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/bases notes",
+        "folder": ""
+    },
+    {
+        "title": "Binding to console log",
+        "description": "Binding to console log",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/binding-to-console-log",
+        "folder": ""
+    },
+    {
+        "title": "bolt.net",
+        "description": "bolt.net",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/bolt-net",
+        "folder": ""
+    },
+    {
+        "title": "Budget CategoryRules SQL Server table",
+        "description": "Budget CategoryRules SQL Server table",
+        "date_created": "2025-05-26T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "budget"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/budget-category-rules",
+        "folder": ""
+    },
+    {
+        "title": "budget-work1",
+        "description": "budget-work1",
+        "date_created": "2025-05-23T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "personal",
+            "budget"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/budget-work-excel-sql-server",
+        "folder": ""
+    },
+    {
+        "title": "bulk-markdown-modify",
+        "description": "How to perform bulk changes to markdown files in a folder",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-17T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "markdown"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/bulk-markdown-modify",
+        "folder": ""
+    },
+    {
+        "title": "Bun notes vs code debugging",
+        "description": "Bun notes vs code debugging",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "bun"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/bun-notes",
+        "folder": ""
+    },
+    {
+        "title": "c-sharp-dynamic-generic-function",
+        "description": "c-sharp-dynamic-generic-function",
+        "date_created": "2025-10-20T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "csharp"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/c-sharp-dynamic-generic-function",
+        "folder": ""
+    },
+    {
+        "title": "C# cmdlet code",
+        "description": "C# cmdlet code",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/csharp-cmdlet-code",
+        "folder": ""
+    },
+    {
+        "title": "C# command line processor; cocona; commandlineparser; cli",
+        "description": "C# command line processor; cocona; commandlineparser; cli",
+        "date_created": "2025-07-13T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "csharp",
+            "cli"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/cs-command-line-parser",
+        "folder": ""
+    },
+    {
+        "title": "C# data models for Excel using attributes and reflection",
+        "description": "C# data models for Excel using attributes and reflection",
+        "date_created": "2025-06-05T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "excel",
+            "data-model"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/cs-model-for-excel",
+        "folder": ""
+    },
+    {
+        "title": "Calling a PowerShell script from a package.json script",
+        "description": "Calling a PowerShell script from a package.json script",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/calling-powershell-script-from-package",
+        "folder": ""
+    },
+    {
+        "title": "Centering an Outlook email",
+        "description": "Centering an Outlook email",
+        "date_created": "2025-07-06T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "email",
+            "email-builder"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/centering-an-outlook-email",
+        "folder": ""
+    },
+    {
+        "title": "Change editor width in Obsidian",
+        "description": "Change editor width in Obsidian",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-17T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/change-editor-width",
+        "folder": ""
+    },
+    {
+        "title": "Check that a file, directory, or path exists with Node",
+        "description": "Check that a file, directory, or path exists with Node",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript",
+            "node"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/path-exists-with-node",
+        "folder": ""
+    },
+    {
+        "title": "chia-crackers-recipe",
+        "description": "chia crackers recipe",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-09T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "recipe"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/chia-crackers-recipe",
+        "folder": ""
+    },
+    {
+        "title": "Chrome com.chrome.devtools.json file error",
+        "description": "Chrome com.chrome.devtools.json file error",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "chrome"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/chrome-com",
+        "folder": ""
+    },
+    {
+        "title": "Chrome Dev Tools",
+        "description": "Chrome Dev Tools",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/chrome-dev-tools",
+        "folder": ""
+    },
+    {
+        "title": "Client side logging to the DB with Sveltekit and Pino",
+        "description": "Client side logging to the DB with Sveltekit and Pino",
+        "date_created": "2025-06-07T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/client-side-logging-to-db-with-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "Close process associated with a specific port",
+        "description": "Close process associated with a specific port",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/close-process-associated-with-a-specific-port",
+        "folder": ""
+    },
+    {
+        "title": "Color saturation and hue",
+        "description": "Color saturation and hue",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css",
+            "design"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/color-saturation-and-hue",
+        "folder": ""
+    },
+    {
+        "title": "Company event fowarding",
+        "description": "Company event fowarding",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/component-event-forwarding",
+        "folder": ""
+    },
+    {
+        "title": "Comparing dataview query to a dataviewjs query",
+        "description": "Comparing dataview query to a dataviewjs query",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/dataview-query-comparison",
+        "folder": ""
+    },
+    {
+        "title": "Comparing Rust vectors to .NET collections",
+        "description": "Comparing Rust vectors to .NET collections",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/comparing-rust-vectors-to-net-collections",
+        "folder": ""
+    },
+    {
+        "title": "Connect C# to Postgres with Npgsql",
+        "description": "Connect C# to Postgres with Npgsql",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/connect-ccharp-to-postgres-with-npgsql",
+        "folder": ""
+    },
+    {
+        "title": "Container query example",
+        "description": "Container query example",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/container-query-example",
+        "folder": ""
+    },
+    {
+        "title": "Convert and compress png to webp",
+        "description": "Convert and compress png to webp",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities",
+            "web-dev"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/convert-and-compress-png-to-webp",
+        "folder": ""
+    },
+    {
+        "title": "converting markdown to HTML with pandoc",
+        "description": "converting markdown to HTML with pandoc",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "markdown",
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/converting-markdown-to-html-with-pandoc",
+        "folder": ""
+    },
+    {
+        "title": "Copy a folder into a new branch",
+        "description": "Copy a folder into a new branch",
+        "date_created": "2025-09-02T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "git"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/copy-folder-to-new-git-branch",
+        "folder": ""
+    },
+    {
+        "title": "Count IBM i user jobs ibmi",
+        "description": "Count IBM i user jobs ibmi",
+        "date_created": "2025-08-12T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "ibm-i"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/count-user-jobs-on-ibm-i",
+        "folder": ""
+    },
+    {
+        "title": "Create a custom HR tag",
+        "description": "Create a custom HR tag",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/create-a-custom-hr-tag",
+        "folder": ""
+    },
+    {
+        "title": "Create a Sveltekit fallback route",
+        "description": "Create a Sveltekit fallback route",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/fallback-route-with-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "Create a Zod object from a C# data model",
+        "description": "Create a Zod object from a C# data model",
+        "date_created": "2025-05-31T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "zod",
+            "data-model"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/create-zod-object-from-cs-data-model",
+        "folder": ""
+    },
+    {
+        "title": "Create JSON schemas of DataGate files",
+        "description": "Create JSON schemas of DataGate files",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "datagate"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/gendgjsonschema",
+        "folder": ""
+    },
+    {
+        "title": "Create symlinks with PowerShell",
+        "description": "How to create symlinks (SymbolicLink) with PowerShell. This is what enables the Brainiac Svelte project to share, in real time, markdown posts from Obsidian. PowerShell's SymbolicLink is like DOS's MKLINK command. This article also includes an explanation of PowerShell's symbolic links.",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-05T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows",
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/symboliclinks-powershell",
+        "folder": ""
+    },
+    {
+        "title": "Creating a class in Rust",
+        "description": "Creating a class in Rust",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/creating-a-class-in-rust",
+        "folder": ""
+    },
+    {
+        "title": "Creating a packaged C# EXE for deployment/publish",
+        "description": "Creating a packaged C# EXE for deployment/publish",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "csharp"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/creating-a-packaged-csharp-exe-for-deployment",
+        "folder": ""
+    },
+    {
+        "title": "Creating a symbolic link with DOS mklink",
+        "description": "Creating a symbolic link with DOS mklink",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows",
+            "utility"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/creating-a-symbolic-link-with-dos-mklink",
+        "folder": ""
+    },
+    {
+        "title": "Creating entity models with Entity Framework",
+        "description": "Creating entity models with Entity Framework",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "csharp"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/creating-entity-models-with-entity-framework",
+        "folder": ""
+    },
+    {
+        "title": "Creating Json indexing files for ASNA.com site search",
+        "description": "Creating Json indexing files for ASNA.com site search",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/creating-json-indexing-files-for-asna",
+        "folder": ""
+    },
+    {
+        "title": "Creating marketing emails with mjml",
+        "description": "Creating marketing emails with mjml",
+        "date_created": "2025-06-11T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "marketing",
+            "email"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/marketing-emails-mjml",
+        "folder": ""
+    },
+    {
+        "title": "CRUD app via Gemini",
+        "description": "CRUD app via Gemini",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/crud-app-via-gemini",
+        "folder": ""
+    },
+    {
+        "title": "CSS :is pseudo selector",
+        "description": "CSS :is pseudo selector",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-is-pseudo-selector",
+        "folder": ""
+    },
+    {
+        "title": "CSS center a response image with a caption",
+        "description": "CSS center a response image with a caption",
+        "date_created": "2025-07-20T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-image-with-caption",
+        "folder": ""
+    },
+    {
+        "title": "CSS custom props color stuff",
+        "description": "CSS custom props color stuff",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-custom-props-color-generator-schema",
+        "folder": ""
+    },
+    {
+        "title": "CSS Flex demystified",
+        "description": "CSS Flex demystified",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css/flex"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-flex-demystified",
+        "folder": ""
+    },
+    {
+        "title": "CSS focus-within pseudo selector",
+        "description": "CSS focus-within pseudo selector",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/focus-within",
+        "folder": ""
+    },
+    {
+        "title": "CSS focus-within pseudo selector",
+        "description": "CSS focus-within pseudo selector",
+        "date_created": "2025-11-01T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/has-error",
+        "folder": ""
+    },
+    {
+        "title": "CSS Forms",
+        "description": "CSS Forms",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-forms",
+        "folder": ""
+    },
+    {
+        "title": "CSS Frameworks",
+        "description": "CSS Frameworks",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-frameworks",
+        "folder": ""
+    },
+    {
+        "title": "CSS Holy Grail - Chris Coyier",
+        "description": "CSS Holy Grail - Chris Coyier",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-holy-grail-chris-coyier",
+        "folder": ""
+    },
+    {
+        "title": "CSS Holy Grail - Una",
+        "description": "CSS Holy Grail - Una",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-holy-grail-una",
+        "folder": ""
+    },
+    {
+        "title": "CSS nuggets",
+        "description": "CSS nuggets",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-nuggets",
+        "folder": ""
+    },
+    {
+        "title": "CSS Pseudo classes",
+        "description": "CSS Pseudo classes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-pseudo-classes-and-pseudo-elements",
+        "folder": ""
+    },
+    {
+        "title": "CSS scoped styles",
+        "description": "CSS scoped styles",
+        "date_created": "2025-06-10T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-scrope-styles",
+        "folder": ""
+    },
+    {
+        "title": "CSS selectors",
+        "description": "CSS selectors",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-selectors",
+        "folder": ""
+    },
+    {
+        "title": "CSS set table column widths",
+        "description": "CSS set table column widths",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-set-table-column-widths",
+        "folder": ""
+    },
+    {
+        "title": "CSS subgrid",
+        "description": "CSS subgrid",
+        "date_created": "2025-08-05T00:00:00.000Z",
+        "date_updated": "2025-12-17T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css/subgrid"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-subgrid",
+        "folder": ""
+    },
+    {
+        "title": "CSS units I use",
+        "description": "CSS units I use",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-units",
+        "folder": ""
+    },
+    {
+        "title": "css-scope-tutorial",
+        "description": "CSS @scope tutorial",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-05T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-scope-tutorial",
+        "folder": ""
+    },
+    {
+        "title": "Custom JavaScript console",
+        "description": "Custom JavaScript console",
+        "date_created": "2025-07-14T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/custom-js-console",
+        "folder": ""
+    },
+    {
+        "title": "DataGate license manager versions",
+        "description": "DataGate license manager versions",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "datagate"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/datagate-license-manager-versions",
+        "folder": ""
+    },
+    {
+        "title": "dataview",
+        "description": "dataview",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/dataview",
+        "folder": ""
+    },
+    {
+        "title": "dataviewjs -- pages without a description",
+        "description": "dataviewjs -- pages without a description",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/dataview-info",
+        "folder": ""
+    },
+    {
+        "title": "davinci-resolve-notes",
+        "description": "davinci-resolve-notes",
+        "date_created": "2025-09-09T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "davinci",
+            "resolve"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/davinci-resolve-notes",
+        "folder": ""
+    },
+    {
+        "title": "Debugging Sveltekit apps",
+        "description": "Debugging Sveltekit apps",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "debug"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/debugging-server-side-sveltekit-apps",
+        "folder": ""
+    },
+    {
+        "title": "Defining JSDoc types globally in Sveltekit",
+        "description": "Defining JSDoc types globally in Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "jsdoc"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/defining-jsdoc-types-globally-in-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "Defining types with TypeScript",
+        "description": "Defining types with TypeScript",
+        "date_created": "2025-07-03T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/defining-types-with-typescript",
+        "folder": ""
+    },
+    {
+        "title": "Delete OneDrive",
+        "description": "Delete OneDrive",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/delete-onedrive",
+        "folder": ""
+    },
+    {
+        "title": "delray-archives",
+        "description": "delray-archives",
+        "date_created": "2025-05-28T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "delray"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/delray-archives",
+        "folder": ""
+    },
+    {
+        "title": "directory watcher in go",
+        "description": "directory watcher in go",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "go"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/directory-watcher-in-go",
+        "folder": ""
+    },
+    {
+        "title": "Displaying toasts with Sveltekit",
+        "description": "Displaying toasts with Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/flashmessage",
+        "folder": ""
+    },
+    {
+        "title": "Docker",
+        "description": "Docker",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "containers",
+            "docker"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/docker",
+        "folder": ""
+    },
+    {
+        "title": "Docker compose file tutorial",
+        "description": "Docker compose file tutorial",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "containers"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/docker-compose-file-tutorial",
+        "folder": ""
+    },
+    {
+        "title": "Docker file tutorial",
+        "description": "Docker file tutorial",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "containers"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/docker-file-tutorial",
+        "folder": ""
+    },
+    {
+        "title": "Dynamic Svelte Components",
+        "description": "Dynamic Svelte Components",
+        "date_created": "2025-07-17T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/dynamic-svelte-components",
+        "folder": ""
+    },
+    {
+        "title": "Eblast #2 for the LakeB2B mailing list (November 2025)",
+        "description": "This is the second iteration of the Monarch marketing eblast",
+        "date_created": "2025-11-03T00:00:00.000Z",
+        "date_updated": "2025-11-05T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "marketing",
+            "lakeb2b",
+            "eblast"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/november-2025-eblast",
+        "folder": ""
+    },
+    {
+        "title": "Email design system",
+        "description": "Email design system",
+        "date_created": "2025-07-19T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "email",
+            "email-builder"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/email-design-system",
+        "folder": ""
+    },
+    {
+        "title": "Emulate data fetch with a promise",
+        "description": "Emulate data fetch with a promise",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript",
+            "promise",
+            "fetch"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/emulate-data-fetch-with-a-promise",
+        "folder": ""
+    },
+    {
+        "title": "Emulating enums in TypeScript",
+        "description": "Emulating enums in TypeScript",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/emulating-enums-in-typescript",
+        "folder": ""
+    },
+    {
+        "title": "example docker compose file for a sveltekit app",
+        "description": "example docker compose file for a sveltekit app",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "docker",
+            "containers"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/example-docker-compose-file-for-a-sveltekit-app",
+        "folder": ""
+    },
+    {
+        "title": "example svelte.config.js",
+        "description": "example svelte.config.js",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/example-svelte-config",
+        "folder": ""
+    },
+    {
+        "title": "Extending a VM's disk size",
+        "description": "Extending a VM's disk size",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "hyper-v"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/extending-a-vms-disk-size",
+        "folder": ""
+    },
+    {
+        "title": "FileSeek configuration tips",
+        "description": "FileSeek configuration tips",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows",
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/searching-with-fileseek",
+        "folder": ""
+    },
+    {
+        "title": "Find all given files",
+        "description": "Find all given files",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/find-all-given-files",
+        "folder": ""
+    },
+    {
+        "title": "Find all occurrences of 'console.log' that aXren't commented out",
+        "description": "Find all occurrences of 'console.log' that aXren't commented out",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "vs-code"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/visual-studio-code-search-technique",
+        "folder": ""
+    },
+    {
+        "title": "Find all occurrences of a set of strings within a string",
+        "description": "Find all occurrences of a set of strings within a string",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/find-all-occurrences-of-a-set-of-strings",
+        "folder": ""
+    },
+    {
+        "title": "Find and kill a Windows process with taskkill",
+        "description": "Find and kill a Windows process with taskkill",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/kill-a-windows-process-with-taskill",
+        "folder": ""
+    },
+    {
+        "title": "Find large files with the Windows Explorer",
+        "description": "Find large files with the Windows Explorer",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/find-large-files-in-windows",
+        "folder": ""
+    },
+    {
+        "title": "flex-search",
+        "description": "FlexSearch in action",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-23T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "search"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/flex-search",
+        "folder": ""
+    },
+    {
+        "title": "Force Sveltekit page reloadO",
+        "description": "Force Sveltekit page reloadO",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/force-sveltekit-page-reload",
+        "folder": ""
+    },
+    {
+        "title": "form with api",
+        "description": "form with api",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/form-with-api",
+        "folder": ""
+    },
+    {
+        "title": "gemini-opinion-on-app-state",
+        "description": "gemini-opinion-on-app-state",
+        "date_created": "2025-06-07T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/gemini-opinion-on-app-state",
+        "folder": ""
+    },
+    {
+        "title": "Gemini-produced code to use Goto APIs to register an attendee",
+        "description": "Gemini-produced code to use Goto APIs to register an attendee",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "landing-page"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/gemini-produced-code-to-use-goto-apis-to-register-an-attendee",
+        "folder": ""
+    },
+    {
+        "title": "Generate SQL Server table schema in Json and CRUD stored procs",
+        "description": "Generate SQL Server table schema in Json and CRUD stored procs",
+        "date_created": "2025-05-31T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sql-server",
+            "schema",
+            "crud"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/generate-sql-server-schema-and-crud-procs",
+        "folder": ""
+    },
+    {
+        "title": "Get file inventory with PowerShell",
+        "description": "Get file inventory with PowerShell",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/get-file-inventory-with-powershell",
+        "folder": ""
+    },
+    {
+        "title": "get podman running",
+        "description": "get podman running",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres",
+            "containers"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/get-podman-running",
+        "folder": ""
+    },
+    {
+        "title": "Get table schema",
+        "description": "Get table schema",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres",
+            "sql",
+            "schema"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/get-table-schema",
+        "folder": ""
+    },
+    {
+        "title": "Getting locale from Sveltekit URL",
+        "description": "Getting locale from Sveltekit URL",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/get-language-page-parm",
+        "folder": ""
+    },
+    {
+        "title": "Git - using stash",
+        "description": "Git - using stash",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "git"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/git-using-stash",
+        "folder": ""
+    },
+    {
+        "title": "Git nuggets",
+        "description": "Git nuggets",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "git"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/git-nuggets",
+        "folder": ""
+    },
+    {
+        "title": "git-install",
+        "description": "git-install",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "git"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/git-install",
+        "folder": ""
+    },
+    {
+        "title": "global rune",
+        "description": "global rune",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/global-rune",
+        "folder": ""
+    },
+    {
+        "title": "Good looking web pages",
+        "description": "Good looking web pages",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "design",
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/inspiration-for-good-web-pages",
+        "folder": ""
+    },
+    {
+        "title": "GoTo Webinar APIs",
+        "description": "GoTo Webinar APIs",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "goto-webinar"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/goto-webinar-apis",
+        "folder": ""
+    },
+    {
+        "title": "GoTo Webinar Register Attendee",
+        "description": "GoTo Webinar Register Attendee",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "gotowebinar"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/goto-webinar-register-attendee",
+        "folder": ""
+    },
+    {
+        "title": "goto-apis-used-day-to-day",
+        "description": "goto-apis-used-day-to-day",
+        "date_created": "2025-05-19T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "goto-webinar"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/refreshing-the-goto-access-token",
+        "folder": ""
+    },
+    {
+        "title": "Handling API errors with Sveltekit",
+        "description": "Handling API errors with Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "ricettaparmigianadipatate"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/handling-api-errors-with-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "Home-brewed logging to a text file with Sveltekit",
+        "description": "Home-brewed logging to a text file with Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/home-brewed-logging-to-a-text-file-with-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "How the multi-locale feature is implemented at ASNA.com",
+        "description": "How he multi-locale feature is implemxented at ASNA.com",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/implementing-multiple-locales-at-asna-com",
+        "folder": ""
+    },
+    {
+        "title": "How to add PostCSS to a Sveltekit project",
+        "description": "How to add PostCSS to a Sveltekit project",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "asna-com",
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/add-postcss-to-sveltekit-project",
+        "folder": ""
+    },
+    {
+        "title": "How to apply global CSS to a SvelteKit app.",
+        "description": "How to apply global CSS to a SvelteKit app.",
+        "date_created": "2025-05-25T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css",
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-css",
+        "folder": ""
+    },
+    {
+        "title": "How to convert markdown to plain text using either Mdsvex or vanilla typescript",
+        "description": "How to convert markdown to plain text using either Mdsvex or vanilla typescript",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "markdown"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/convert-markdown-to-plain-text",
+        "folder": ""
+    },
+    {
+        "title": "How to create a SvelteKit component package",
+        "description": "How to create, package, and consume a SvelteKit library component.",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-16T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-component-package",
+        "folder": ""
+    },
+    {
+        "title": "How to create and use a Rust crate",
+        "description": "How to create and use a Rust crate",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/create-a-rust-crate",
+        "folder": ""
+    },
+    {
+        "title": "How to define a DB connecton in hooks.server.ts and store it in the locals object",
+        "description": "How to define a DB connecton in hooks.server.ts and store it in the locals object",
+        "date_created": "2025-05-24T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/defining-db-connection-sveltekit-hooks-file",
+        "folder": ""
+    },
+    {
+        "title": "How to intercept console output to keep test output clean",
+        "description": "This shows how to intercept console output to keep test output clean.",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "vitest"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/spying-on-console-with-vitest",
+        "folder": ""
+    },
+    {
+        "title": "How to page through a Json object",
+        "description": "A 'Pager' class that fetches a page of objects from an array of Json objects",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/paging-through-json-doc",
+        "folder": ""
+    },
+    {
+        "title": "How to read return data with use:enhance and form actions",
+        "description": "How to read return data with use:enhance and form actions",
+        "date_created": "2025-07-08T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/returning-data-to-use-enhance-form-action",
+        "folder": ""
+    },
+    {
+        "title": "How to refresh the GoTo API authorization code",
+        "description": "How to refresh the GoTo API authorization code",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-06T00:00:00.000Z",
+        "date_published": null,
+        "pinned": true,
+        "tags": [
+            "asna-com",
+            "goto-webinar"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/how-to-refresh-the-goto-api-authorization-code",
+        "folder": ""
+    },
+    {
+        "title": "How to replace an API call that use query string arguments to something that with SSR for Sveletekit",
+        "description": "How to replace an API call that use query string arguments to something that with SSR for Sveletekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/replace-a-sveltekit-client-side-api-call-with-layout",
+        "folder": ""
+    },
+    {
+        "title": "How to set the locale at ASNA.com",
+        "description": "How to set the locale at ASNA.com",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/get-locale-and-url-for-page",
+        "folder": ""
+    },
+    {
+        "title": "How to use PostCSS and OpenProps with Sveltekit",
+        "description": "How to use PostCSS and OpenProps with Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "postcss",
+            "css",
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/use-postcss-and-open-props-with-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "How to use Resilio to keep folders synced",
+        "description": "How to use Resilio to keep folders synced",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities",
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/resilio-folder-syncing",
+        "folder": ""
+    },
+    {
+        "title": "How to use the 'mssql' NPM package to connect to SQL Server from Node and configure node_user.",
+        "description": "How to use the 'mssql' NPM package to connect to SQL Server from Node and configure node_user.",
+        "date_created": "2025-05-23T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "node",
+            "sql-server"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/connect-to-sql-server-with-node",
+        "folder": ""
+    },
+    {
+        "title": "How to use WSL2 and Podman or Docker for the most performance",
+        "description": "How to use WSL2 and Podman or Docker for the most performance",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "containers",
+            "wsl2"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/wsl2-and-podman-performance",
+        "folder": ""
+    },
+    {
+        "title": "how-does-microsoft-define-individual-or-consumer-user",
+        "description": "how-does-microsoft-define-individual-or-consumer-user",
+        "date_created": "2025-09-16T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "microsoft"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/how-does-microsoft-define-individual-or-consumer-user",
+        "folder": ""
+    },
+    {
+        "title": "HTML form custom validation with setCustomValidity",
+        "description": "HTML form custom validation with setCustomValidity",
+        "date_created": "2025-06-02T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "html"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/custom-html-form-validation-with-setcustomvalidity",
+        "folder": ""
+    },
+    {
+        "title": "HTML snippets",
+        "description": "HTML snippets",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "front-end"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/html-snippets",
+        "folder": ""
+    },
+    {
+        "title": "html-novalidate-attribute",
+        "description": "html-novalidate-attribute",
+        "date_created": "2025-06-02T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "html"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/html-novalidate-attribute",
+        "folder": ""
+    },
+    {
+        "title": "HTTP context API in Sveltekit",
+        "description": "HTTP context API in Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/working-with-http-context",
+        "folder": ""
+    },
+    {
+        "title": "Human friendly sorting in TypeScript",
+        "description": "Human friendly sorting in Typescript",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/human-friendly-sorting-in-typescript",
+        "folder": ""
+    },
+    {
+        "title": "Importing Json with Node static dynamic",
+        "description": "Importing Json with Node static dynamic",
+        "date_created": "2025-08-10T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "json"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/import-json-with-node",
+        "folder": ""
+    },
+    {
+        "title": "Include HTML comments in Sveltekit build process",
+        "description": "Include HTML comments in Sveltekit build process",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/include-html-comments-in-sveltekit-build-process",
+        "folder": ""
+    },
+    {
+        "title": "Indexed access types in TypeScript",
+        "description": "Indexed access types in TypeScript",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/indexed-access-types-in-typescript",
+        "folder": ""
+    },
+    {
+        "title": "information about Brainiac documents",
+        "description": "information about Brainiac documents",
+        "date_created": "2025-10-27T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "brainiac"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/brainiac-documents",
+        "folder": ""
+    },
+    {
+        "title": "Insert a row into a table based on another row",
+        "description": "Insert a row into a table based on another row",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sql"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/insert-a-row-into-a-table-based-on-another-row",
+        "folder": ""
+    },
+    {
+        "title": "japanese-dressing",
+        "description": "Japanese dressing",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-10T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "recipe"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/japanese-dressing",
+        "folder": ""
+    },
+    {
+        "title": "Javascript map function",
+        "description": "Javascript map function",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/javascript-map-function",
+        "folder": ""
+    },
+    {
+        "title": "JavaScript map function",
+        "description": "JavaScript map function",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/javascript-array-reduce-function",
+        "folder": ""
+    },
+    {
+        "title": "JavaScript notes",
+        "description": "JavaScript notes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/javascript-notes",
+        "folder": ""
+    },
+    {
+        "title": "JavaScript spread syntax; spread operator",
+        "description": "JavaScript spread syntax; spread operator",
+        "date_created": "2025-07-17T00:00:00.000Z",
+        "date_updated": "2025-11-07T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/javascript-spread-syntax",
+        "folder": ""
+    },
+    {
+        "title": "JavaScript's spread operator",
+        "description": "JavaScript's spread operator",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/javascript-spread-operator",
+        "folder": ""
+    },
+    {
+        "title": "javascxript-tagged-functions",
+        "description": "javascxript-tagged-functions",
+        "date_created": "2025-05-29T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/javascxript-tagged-functions",
+        "folder": ""
+    },
+    {
+        "title": "JetBrains Rider License",
+        "description": "JetBrains Rider License",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/jetbrains-rider",
+        "folder": ""
+    },
+    {
+        "title": "JSDoc example type definitions",
+        "description": "JSDoc example type definitions",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "jsdoc"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/jsdoc-example-type-definitions",
+        "folder": ""
+    },
+    {
+        "title": "Kinisis keyboard configuration",
+        "description": "Kinisis keyboard configuration",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/kinesis-keyboard-notes",
+        "folder": ""
+    },
+    {
+        "title": "LakeB2B Constant Contact Import",
+        "description": "Helpful SQL",
+        "date_created": "2025-08-24T00:00:00.000Z",
+        "date_updated": "2025-11-19T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "lakeb2b"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/lakeb2b-constant-contact-import",
+        "folder": ""
+    },
+    {
+        "title": "lakeb2b-october-2025-list-update",
+        "description": "lakeb2b-october-2025-list-update",
+        "date_created": "2025-10-20T00:00:00.000Z",
+        "date_updated": "2025-11-19T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "lakeb2b"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/lakeb2b-october-2025-list-update",
+        "folder": ""
+    },
+    {
+        "title": "Landing page comparo table",
+        "description": "Landing page comparo table",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "landing-page"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/landing-page-comparo-table",
+        "folder": ""
+    },
+    {
+        "title": "Launch Chrome with PowerShell",
+        "description": "Launch Chrome with PowerShell",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/launch-chrome-with-powershell",
+        "folder": ""
+    },
+    {
+        "title": "Launch Windows explorer from browser",
+        "description": "Launch Windows explorer from browser",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "web-dev"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/launch-windows-explorer-from-browser",
+        "folder": ""
+    },
+    {
+        "title": "Learn how to publish a package to npm with a complete setup including, TypeScript, Prettier, Vitest, GitHub Actions, and versioning with Changesets.",
+        "description": "Learn how to publish a package to npm with a complete setup including, TypeScript, Prettier, Vitest, GitHub Actions, and versioning with Changesets.",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "clippings",
+            "node",
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/how-to-create-an-npm-package",
+        "folder": ""
+    },
+    {
+        "title": "Light or dark color schema",
+        "description": "Light or dark color schema",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/light-or-dark-color-schema",
+        "folder": ""
+    },
+    {
+        "title": "Luther 2.0 backup docs (using the term loosely)",
+        "description": "Luther 2.0 backup docs (using the term loosely)",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/luther-backup-notes",
+        "folder": ""
+    },
+    {
+        "title": "Managing Postgres connection pooling",
+        "description": "Managing Postgres connection pooling",
+        "date_created": "2025-06-13T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/postgres-pooling-management",
+        "folder": ""
+    },
+    {
+        "title": "Mapping podman volume to local windows folder",
+        "description": "Mapping podman volume to local windows folder",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "podman",
+            "containers"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/podman-and-local-windows-volumes",
+        "folder": ""
+    },
+    {
+        "title": "mdsvex-markdown-sveltekit",
+        "description": "Using mdsved with SvelteKit",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mdsvex-markdown-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "Merge text files with PowerShell",
+        "description": "Merge text files with PowerShell",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/merge-text-files-with-powershell",
+        "folder": ""
+    },
+    {
+        "title": "mermaid-script-notes-for-asna-com-deploy",
+        "description": "mermaid-script-notes-for-asna-com-deploy",
+        "date_created": "2025-09-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mermaid-script-notes-for-asna-com-deploy",
+        "folder": ""
+    },
+    {
+        "title": "microsoft-volume-pricing esu windows 11",
+        "description": "microsoft-volume-pricing esu windows 11",
+        "date_created": "2025-09-14T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "microsoft",
+            "windows11"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/microsoft-volume-pricing",
+        "folder": ""
+    },
+    {
+        "title": "minimal-html-outlook-email-skeleton",
+        "description": "minimal-html-outlook-email-skeleton",
+        "date_created": "2025-06-26T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "html",
+            "outlook"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/minimal-html-outlook-email-skeleton",
+        "folder": ""
+    },
+    {
+        "title": "Miscellaneous tech notes about HTML forms and Sveltekit--especially regarding typescript. It also touches briefly on Zod.",
+        "description": "Miscellaneous tech notes about HTML forms and Sveltekit--especially regarding typescript. It also touches briefly on Zod.",
+        "date_created": "2025-05-21T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript",
+            "forms",
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-forms-technical-notes",
+        "folder": ""
+    },
+    {
+        "title": "Missing or incorrect keys when parsing markdown front matter",
+        "description": "Missing or incorrect keys when parsing markdown front matter",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "zod",
+            "markdown"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/missing-or-incorrect-keys-when-parsing-markdown-front-matter",
+        "folder": ""
+    },
+    {
+        "title": "Monarch content notes",
+        "description": "Monarch content notes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-com",
+            "monarch"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/monarch-content-notes",
+        "folder": ""
+    },
+    {
+        "title": "Mongo notes from early stages of ASNA.com",
+        "description": "Mongo notes from early stages of ASNA.com",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-svelte",
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mongodb-notes",
+        "folder": ""
+    },
+    {
+        "title": "mothra-notes",
+        "description": "mothra-notes",
+        "date_created": "2025-09-08T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "mothra",
+            "office-setup"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mothra-notes",
+        "folder": ""
+    },
+    {
+        "title": "MSO is sneaky",
+        "description": "MSO is sneaky",
+        "date_created": "2025-07-22T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "mso"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mso-is-sneaky",
+        "folder": ""
+    },
+    {
+        "title": "mso-email-two-column-component",
+        "description": "mso-email-two-column-component",
+        "date_created": "2025-07-27T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "mso"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mso-email-two-column-component",
+        "folder": ""
+    },
+    {
+        "title": "My Starship configuration file",
+        "description": "My Starship configuration file",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/starship-command-line-configuration-file",
+        "folder": ""
+    },
+    {
+        "title": "mysql-nuggets",
+        "description": "mysql-nuggets",
+        "date_created": "2025-07-07T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "mysql"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mysql-nuggets",
+        "folder": ""
+    },
+    {
+        "title": "Mysterious CSS article",
+        "description": "Mysterious CSS article",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-snippets",
+        "folder": ""
+    },
+    {
+        "title": "Nesting WebForms projects as virtual directories",
+        "description": "Nesting WebForms projects as virtual directories",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "web-dev"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/nesting-webforms-projects-as-virtual-directories",
+        "folder": ""
+    },
+    {
+        "title": "New ASNA home page research",
+        "description": "New ASNA home page research",
+        "date_created": "2025-10-13T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/new-asna-homepage",
+        "folder": ""
+    },
+    {
+        "title": "Node.js GoTo Webinar Registration Example",
+        "description": "Node.js GoTo Webinar Registration Example",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-com",
+            "goto-webinar"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/goto-webinar-refresh-api-access-asna-events",
+        "folder": ""
+    },
+    {
+        "title": "Notes from early efforts are multi-locales with Sveltekit",
+        "description": "Notes from early efforts are multi-locales with Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "asna-com",
+            "depcreated"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/language-support",
+        "folder": ""
+    },
+    {
+        "title": "Notes on using WSL2",
+        "description": "Notes on using WSL2",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "containers",
+            "wsl2"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/wsl2",
+        "folder": ""
+    },
+    {
+        "title": "Obsidian Commander plugin UI map. This shows the areas of the Obsidian UI where Commander can add commands.",
+        "description": "Obsidian Commander plugin UI map. This shows the areas of the Obsidian UI where Commander can add commands.",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/obsidian-commander-plugin-ui-map",
+        "folder": ""
+    },
+    {
+        "title": "Obsidian datavew versus datavewjs",
+        "description": "Obsidian datavew versus datavewjs",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "obsidian",
+            "dataviewjs"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/obsidian-dataveiw-versus-dataviewjs",
+        "folder": ""
+    },
+    {
+        "title": "Obsidian dataviewjs",
+        "description": "Obsidian dataviewjs",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css",
+            "dataviewjs"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-main",
+        "folder": ""
+    },
+    {
+        "title": "Obsidian hotkeys",
+        "description": "Obsidian hotkeys",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/osidian-hotkeys",
+        "folder": ""
+    },
+    {
+        "title": "Obsidian searching",
+        "description": "Obsidian searching",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/obsidian-searching",
+        "folder": ""
+    },
+    {
+        "title": "obsidian-custom-css-gemini",
+        "description": "obsidian-custom-css-gemini",
+        "date_created": "2025-07-12T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css",
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/obsidian-custom-css-gemini",
+        "folder": ""
+    },
+    {
+        "title": "operating-system-signals",
+        "description": "operating-system-signals",
+        "date_created": "2025-05-20T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/operating-system-signals",
+        "folder": ""
+    },
+    {
+        "title": "Organizing CSS",
+        "description": "Organizing CSS",
+        "date_created": "2025-08-29T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/organizing-css",
+        "folder": ""
+    },
+    {
+        "title": "Original code with original UI to extract HTML from a page",
+        "description": "Original code with original UI to extract HTML from a page",
+        "date_created": "2025-06-27T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-extract-html-original-ui",
+        "folder": ""
+    },
+    {
+        "title": "Outlook ghost tables and other MSO related things",
+        "description": "Outlook ghost tables and other MSO related things",
+        "date_created": "2025-06-29T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "outlook",
+            "email"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/outlook-ghost-tables",
+        "folder": ""
+    },
+    {
+        "title": "ozgar",
+        "description": "ozgar AI vendor",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "ozgar"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/ozgar",
+        "folder": ""
+    },
+    {
+        "title": "ParsedArgs type for TypeScript cmd-args-lib",
+        "description": "ParsedArgs type for TypeScript cmd-args-lib",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-11T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/args-type-for-typescript-library",
+        "folder": ""
+    },
+    {
+        "title": "Passing async-fetched data to a component",
+        "description": "Passing async-fetched data to a component",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/passing-async-fetched-data-to-a-component",
+        "folder": ""
+    },
+    {
+        "title": "Passing server-side data to the client in Sveltekit",
+        "description": "Passing server-side data to the client in Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/passing-data-from-server-to-client-with-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "PC Setup",
+        "description": "PC Setup",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/pc-setup",
+        "folder": ""
+    },
+    {
+        "title": "Pending article notes",
+        "description": "Pending article notes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "article-ideas",
+            "newsletter",
+            "article"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/pendng-article-notes",
+        "folder": ""
+    },
+    {
+        "title": "Personal budget work for Roger and Colleen. import Jefferson Bank data.",
+        "description": "Personal budget work for Roger and Colleen. import Jefferson Bank data.",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "personal",
+            "budget"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/budget-work",
+        "folder": ""
+    },
+    {
+        "title": "Pino Logger docs",
+        "description": "Pino Logger docs",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-13T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "pino"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/pinno-logger-docs",
+        "folder": ""
+    },
+    {
+        "title": "pnpm-local-package",
+        "description": "How to create and use a local PNPM package",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-14T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "pnpm"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/pnpm-local-package",
+        "folder": ""
+    },
+    {
+        "title": "podman named volumes",
+        "description": "podman named volumes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "containers"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/podman-named-volumes",
+        "folder": ""
+    },
+    {
+        "title": "Podmany `WARN[0001] \"/\" is not a shared mount  error",
+        "description": "Podmany `WARN[0001] \"/\" is not a shared mount  error",
+        "date_created": "2025-08-25T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "podman"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/podman-shared-mount-warning",
+        "folder": ""
+    },
+    {
+        "title": "Postgres full text search",
+        "description": "Postgres full text search",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/postgres-full-text-search",
+        "folder": ""
+    },
+    {
+        "title": "Postgres on WSL 2 with Podman",
+        "description": "How to install and configure Postres on WSL2 with Podman",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-29T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "containers",
+            "podman",
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/postgres-on-wsl2-with-podman",
+        "folder": ""
+    },
+    {
+        "title": "Postgres SQL",
+        "description": "Postgres SQL",
+        "date_created": "2025-06-14T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/postgres-sql",
+        "folder": ""
+    },
+    {
+        "title": "PowerPoint design tips and examples",
+        "description": "PowerPoint design tips and examples",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powerpoint"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/powerpoint-design-tips-and-examples",
+        "folder": ""
+    },
+    {
+        "title": "PowerShell - making get-childitem faster and other tips",
+        "description": "PowerShell - making get-childitem faster and other tips",
+        "date_created": "2025-07-12T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/powershell-get-childitem-performance-and-tips",
+        "folder": ""
+    },
+    {
+        "title": "PowerShell approved verbs",
+        "description": "PowerShell approved verbs",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/powershell-approved-verbs",
+        "folder": ""
+    },
+    {
+        "title": "PowerShell nuggets",
+        "description": "PowerShell nuggets",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell",
+            "nuggets"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/powershell-nuggets",
+        "folder": ""
+    },
+    {
+        "title": "PowerShell tXips and techniques",
+        "description": "PowerShell tXips and techniques",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/powershell-tips-and-techniques",
+        "folder": ""
+    },
+    {
+        "title": "Pretty printing Trree output with line drawing ASCII characters.",
+        "description": "Pretty printing Trree output with line drawing ASCII characters.",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/pretty-printing-tree-output",
+        "folder": ""
+    },
+    {
+        "title": "Programmatically create a DataGate from a Json document with CS",
+        "description": "Programmatically create a DataGate from a Json document with CS",
+        "date_created": "2025-08-25T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "csharp"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/programmatically-create-datatable-from-json-in-cs",
+        "folder": ""
+    },
+    {
+        "title": "Protected routes in Sveltekit",
+        "description": "Protected routes in Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/protected-routes",
+        "folder": ""
+    },
+    {
+        "title": "Putting the Pino logger object in the locals object for Sveltekit",
+        "description": "Putting the Pino logger object in the locals object for Sveltekit",
+        "date_created": "2025-06-07T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "logging",
+            "pino",
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-logger-in-locals-with-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "Putting the Postgres connection pool in the SvelteKit context object",
+        "description": "Putting the Postgres connection pool in the SvelteKit context object",
+        "date_created": "2025-06-07T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/postgres-pool-object-context-api",
+        "folder": ""
+    },
+    {
+        "title": "Python env command line swindle",
+        "description": "Python env command line swindle",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "python",
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/python-env-command-line-swindle",
+        "folder": ""
+    },
+    {
+        "title": "python-env",
+        "description": "python-env",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "python"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/python-env",
+        "folder": ""
+    },
+    {
+        "title": "query for a list of column names",
+        "description": "query for a list of column names",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/query-for-a-list-of-column-names",
+        "folder": ""
+    },
+    {
+        "title": "Querying Postgre meta data",
+        "description": "Querying Postgre meta data",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/querying-postgres-meta-data",
+        "folder": ""
+    },
+    {
+        "title": "React Email nuggets mso outlook",
+        "description": "React Email nuggets mso outlook",
+        "date_created": "2025-06-23T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "react-email",
+            "nuggets"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/react-email-nuggets",
+        "folder": ""
+    },
+    {
+        "title": "Read a text file with Rust -- with lots of Rust notes",
+        "description": "Read a text file with Rust -- with lots of Rust notes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/read-a-text-file-with-rust",
+        "folder": ""
+    },
+    {
+        "title": "read-excel-column-schema-with-csharp",
+        "description": "read-excel-column-schema-with-csharp",
+        "date_created": "2025-10-20T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "excel",
+            "csharp"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/read-excel-column-schema-with-csharp",
+        "folder": ""
+    },
+    {
+        "title": "Recursion in Rust",
+        "description": "Recursion in Rust",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/recursion-in-rust",
+        "folder": ""
+    },
+    {
+        "title": "Recursively copy a single folder with RoboCopy",
+        "description": "Recursively copy a single folder with RoboCopy",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/copy-a-single-folder-with-robocopy",
+        "folder": ""
+    },
+    {
+        "title": "redefine console.log",
+        "description": "redefine console.log",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/redefine-console-log",
+        "folder": ""
+    },
+    {
+        "title": "Remove a file from a Git repo",
+        "description": "Remove a file from a Git repo",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "git"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/git",
+        "folder": ""
+    },
+    {
+        "title": "Remove the Gallery from Windows 11 Explorer",
+        "description": "Remove the Gallery from Windows 11 Explorer",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/remove-gallery-from-windows-11-explorer",
+        "folder": ""
+    },
+    {
+        "title": "Remove values from the current URL query string",
+        "description": "Remove values from the current URL query string",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/remove-query-string-keys-and-values",
+        "folder": ""
+    },
+    {
+        "title": "Rename a folder full of files with PowerShell",
+        "description": "Rename a folder full of files with PowerShell",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rename-a-folder-full-of-files-with-powershell",
+        "folder": ""
+    },
+    {
+        "title": "Resize VHDX",
+        "description": "Resize VHDX",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/resize-vhdx",
+        "folder": ""
+    },
+    {
+        "title": "Restore old context menu on Windows 11",
+        "description": "Restore old context menu on Windows 11",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/restore-old-context-menu-in-windows-11",
+        "folder": ""
+    },
+    {
+        "title": "RowSpacer email component",
+        "description": "RowSpacer email component",
+        "date_created": "2025-07-23T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "email-builder-v8"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/row-spacer-component",
+        "folder": ""
+    },
+    {
+        "title": "rp blog sveltekit blog engine",
+        "description": "rp blog sveltekit blog engine",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rp-blog-sveltekit-blog-engine",
+        "folder": ""
+    },
+    {
+        "title": "Rumin8 Fall 2025",
+        "description": "Rumin8 Fall 2025",
+        "date_created": "2025-10-09T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rumin8"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rumin8-4",
+        "folder": ""
+    },
+    {
+        "title": "Run SvelteKit app locally",
+        "description": "Run SvelteKit app locally",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/run-sveltekit-app-locally",
+        "folder": ""
+    },
+    {
+        "title": "Runes",
+        "description": "Runes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/runes",
+        "folder": ""
+    },
+    {
+        "title": "Rust concept of borrowing a value",
+        "description": "Rust concept of borrowing a value",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rust-concept-of-borrowing-a-value",
+        "folder": ""
+    },
+    {
+        "title": "Rust function return type as string",
+        "description": "Rust function return type as string",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rust-function-return-type-as-string",
+        "folder": ""
+    },
+    {
+        "title": "Rust mutable references",
+        "description": "Rust mutable references",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/passing-mutable-references",
+        "folder": ""
+    },
+    {
+        "title": "Rust's OK result variant",
+        "description": "Rust's OK result variant",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rust-ok-result-variant",
+        "folder": ""
+    },
+    {
+        "title": "scheduling an ASNA webcast, goto webinar",
+        "description": "scheduling an ASNA webcast, goto webinar",
+        "date_created": "2025-06-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "webcast"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/scheduling-asna-webcast",
+        "folder": ""
+    },
+    {
+        "title": "Self-hosting Google fonts",
+        "description": "Self-hosting Google fonts",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "web-dev"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/self-hosting-google-fonts",
+        "folder": ""
+    },
+    {
+        "title": "Send a calendar event ICS file from a SvelteKit",
+        "description": "Send a calendar event ICS file from a SvelteKit",
+        "date_created": "2025-06-02T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "ics-file"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/send-calendar-ics-file-from-website",
+        "folder": ""
+    },
+    {
+        "title": "Send an email from Sveltekit",
+        "description": "Send an email from Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/send-email",
+        "folder": ""
+    },
+    {
+        "title": "Sending Constant Contact eblasts",
+        "description": "Sending Constant Contact eblasts",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "marketing"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sending-constant-contact-eblasts",
+        "folder": ""
+    },
+    {
+        "title": "Sending email from ASNA.com",
+        "description": "Sending email from ASNA.com",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-com",
+            "email"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sending-email-with-the-contactform-component",
+        "folder": ""
+    },
+    {
+        "title": "Sending from node CLI",
+        "description": "Sending from node CLI",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sending-email",
+        "folder": ""
+    },
+    {
+        "title": "Server side debugging with VS Code and Sveltekit",
+        "description": "Server side debugging with VS Code and Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "debug"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/server-side-debugging-with-vs-code-and-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "services-team-blurb",
+        "description": "services-team-blurb",
+        "date_created": "2025-10-23T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "marketing"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/services-team-blurb",
+        "folder": ""
+    },
+    {
+        "title": "Set up a Python virtual environment",
+        "description": "Set up a Python virtual environment",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "python"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/set-up-a-python-virtual-environment",
+        "folder": ""
+    },
+    {
+        "title": "setting up a new PC",
+        "description": "setting up a new PC",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "pc"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/new-pc-setup",
+        "folder": ""
+    },
+    {
+        "title": "Show or hide an element based on landscape/portrait mode",
+        "description": "Show or hide an element based on landscape/portrait mode",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/show-or-hide-an-element-based-on-display-mode",
+        "folder": ""
+    },
+    {
+        "title": "Showing progress on form submission",
+        "description": "Showing progress on form submission",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna-svelte",
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/showing-progress-when-submitting-a-form",
+        "folder": ""
+    },
+    {
+        "title": "Slots are deprecated",
+        "description": "Slots are deprecated",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/slots-are-deprecated",
+        "folder": ""
+    },
+    {
+        "title": "Specifying function return types in Rust",
+        "description": "Specifying function return types in Rust",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/specifying-function-return-types-in-rust",
+        "folder": ""
+    },
+    {
+        "title": "Split the DataGate family from its parent family to create a separate DataGate release set",
+        "description": "Split the DataGate family from its parent family to create a separate DataGate release set",
+        "date_created": "2025-06-03T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "downloads"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/split-datagate-from-parent-family",
+        "folder": ""
+    },
+    {
+        "title": "SQL for working with the lakeb2b prospects table in SQL Server",
+        "description": "SQL for working with the lakeb2b prospects table in SQL Server",
+        "date_created": "2025-06-08T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "lakeb2b"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/lakeb2b-prospects-table",
+        "folder": ""
+    },
+    {
+        "title": "SQL Server full text search",
+        "description": "SQL Server full text search",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sql-server",
+            "db"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sql-server-full-text-search",
+        "folder": ""
+    },
+    {
+        "title": "SQL Server login issue",
+        "description": "SQL Server login issue",
+        "date_created": "2025-06-20T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sqlserver"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sql-server-login-issue",
+        "folder": ""
+    },
+    {
+        "title": "SQL Server nuggets",
+        "description": "SQL Server nuggets. Get columns as a list",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sql",
+            "lakeb2b"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sql-nuggets",
+        "folder": ""
+    },
+    {
+        "title": "Stop HTML background activity with CSS inert attribute",
+        "description": "Stop HTML background activity with CSS inert attribute",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/stop-background-scroll-with-html-dialog-element",
+        "folder": ""
+    },
+    {
+        "title": "Style a button like a link",
+        "description": "Style a button like a link",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/style-a-button-like-a-link",
+        "folder": ""
+    },
+    {
+        "title": "Submit extra data with Superform",
+        "description": "Submit extra data with Superform",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/submit-extra-data-with-svelte-superform",
+        "folder": ""
+    },
+    {
+        "title": "Supabase credentials",
+        "description": "Supabase credentials",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-29T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/supabase-credentials",
+        "folder": ""
+    },
+    {
+        "title": "Supabase with C#",
+        "description": "Supabase with C#",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/supabase-with-csharp",
+        "folder": ""
+    },
+    {
+        "title": "Svelte 5 forms",
+        "description": "Svelte 5 forms",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-5-forms",
+        "folder": ""
+    },
+    {
+        "title": "Svelte 5 notes",
+        "description": "Svelte 5 notes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-5-notes",
+        "folder": ""
+    },
+    {
+        "title": "Svelte 5 standard setup",
+        "description": "Svelte 5 standard setup",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-5-standard-setup",
+        "folder": ""
+    },
+    {
+        "title": "Svelte 5 upgrade issues --after getting the app compiled enough to run",
+        "description": "Svelte 5 upgrade issues --after getting the app compiled enough to run",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-5-upgrade-issues--after-getting-the-app-compiled-enough-to-run",
+        "folder": ""
+    },
+    {
+        "title": "svelte 5-2 changes",
+        "description": "svelte 5-2 changes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-5-2-changes",
+        "folder": ""
+    },
+    {
+        "title": "Svelte binding with the getter/setter pattern",
+        "description": "Svelte binding with the getter/setter pattern",
+        "date_created": "2025-07-16T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-binding-with-getter-and-setter",
+        "folder": ""
+    },
+    {
+        "title": "Svelte event object",
+        "description": "Svelte event object",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/event-object",
+        "folder": ""
+    },
+    {
+        "title": "Svelte forms with remote functions are awesome!",
+        "description": "This article explains how to use Svelte 5 forms with remote functions.",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "forms"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-forms-with-remote-functions",
+        "folder": ""
+    },
+    {
+        "title": "Svelte persistent store",
+        "description": "Svelte persistent store",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/function-to-create-sveltekit-persistent-store",
+        "folder": ""
+    },
+    {
+        "title": "Svelte remote functions",
+        "description": "Svelte remote functions",
+        "date_created": "2025-10-27T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-remote-functions",
+        "folder": ""
+    },
+    {
+        "title": "svelte-component-input",
+        "description": "svelte-component-input",
+        "date_created": "2025-05-22T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte-component"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-component-input-text",
+        "folder": ""
+    },
+    {
+        "title": "svelte-reactivity-avoids-need-for-data-sveltekit-reload",
+        "description": "svelte-reactivity-avoids-need-for-data-sveltekit-reload",
+        "date_created": "2025-10-26T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-reactivity-avoids-need-for-data-sveltekit-reload",
+        "folder": ""
+    },
+    {
+        "title": "svelte-sveltekit things to know",
+        "description": "svelte-sveltekit things to know",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/svelte-sveltekit-things-to-know",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit - getting data from server to client. This article discusses PageServerLoad versus explicit typing for load functions with +page.server and +page.svelte.",
+        "description": "Sveltekit - getting data from server to client. This article discusses PageServerLoad versus explicit typing for load functions with +page.server and +page.svelte.",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-getting-data-from-server-to-client-",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit ActionData for forms processing",
+        "description": "Sveltekit ActionData for forms processing",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "forms"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-actiondata-for-forms-processing",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit browser object",
+        "description": "Sveltekit browser object",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-browser-object",
+        "folder": ""
+    },
+    {
+        "title": "SvelteKit build errors",
+        "description": "SvelteKit build errors",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-build-errors",
+        "folder": ""
+    },
+    {
+        "title": "SvelteKit context and locals server-side objects",
+        "description": "SvelteKit context and locals server-side objects",
+        "date_created": "2025-06-07T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-server-side-context-objects",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit dynamic routing and fetching the url.",
+        "description": "Sveltekit dynamic routing and fetching the url.",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-routing",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit forms - PageData and ActionData",
+        "description": "Sveltekit forms - PageData and ActionData",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "forms"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-forms-pagedata-and-actiondata",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit forms - request.FormData1",
+        "description": "Sveltekit forms - request.FormData1",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "forms"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-forms-request-formdata",
+        "folder": ""
+    },
+    {
+        "title": "SvelteKit global error handling",
+        "description": "SvelteKit global error handling",
+        "date_created": "2025-06-14T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-global-error-handling",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit layouts",
+        "description": "Sveltekit layouts",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/layouts",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit links",
+        "description": "Sveltekit links",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-resources",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit locals",
+        "description": "Sveltekit locals",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-locals",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit locals",
+        "description": "Sveltekit locals",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/working-with-locals",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit locals object",
+        "description": "Sveltekit locals object",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/hooks-the-locals-object",
+        "folder": ""
+    },
+    {
+        "title": "SvelteKit logging with Pino",
+        "description": "SvelteKit logging with Pino",
+        "date_created": "2025-06-07T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "pino",
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/logging-in-sveltekit-with-pino",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit miscellaneous things",
+        "description": "Sveltekit miscellaneous things",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-miscellaneous-things",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit nuggets",
+        "description": "Sveltekit nuggets",
+        "date_created": "2025-02-01T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "nuggets"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-nuggets",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit query strings and stores",
+        "description": "Sveltekit query strings and stores",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/query-strings-and-stores",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit server-side load event",
+        "description": "Sveltekit server-side load event",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/request-data-available-to-sveltekit-server-side",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit server-side redirect",
+        "description": "Sveltekit server-side redirect",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/hooks-server-side-redirect",
+        "folder": ""
+    },
+    {
+        "title": "SvelteKit study guide",
+        "description": "SvelteKit study guide",
+        "date_created": "2025-08-14T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-study-guide",
+        "folder": ""
+    },
+    {
+        "title": "Sveltekit universal load functions",
+        "description": "Sveltekit universal load functions",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/universal-and-server-load-functions",
+        "folder": ""
+    },
+    {
+        "title": "sveltekit-async-form-handling",
+        "description": "sveltekit-async-form-handling",
+        "date_created": "2025-05-25T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "forms"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-async-form-handling",
+        "folder": ""
+    },
+    {
+        "title": "sveltekit-forms-handling",
+        "description": "sveltekit-forms-handling",
+        "date_created": "2025-05-25T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "forms"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-forms-handling",
+        "folder": ""
+    },
+    {
+        "title": "sveltekit-posting-data-to-an-endpoint",
+        "description": "sveltekit-posting-data-to-an-endpoint",
+        "date_created": "2025-06-20T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-posting-data-to-an-endpoint",
+        "folder": ""
+    },
+    {
+        "title": "sveltekit-template-page-server-ts",
+        "description": "sveltekit-template-page-server-ts",
+        "date_created": "2025-05-26T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-template-page-server-ts",
+        "folder": ""
+    },
+    {
+        "title": "Tailwind tips",
+        "description": "Tailwind tips",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css",
+            "tailwind"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/tailwind-tips",
+        "folder": ""
+    },
+    {
+        "title": "tailwind-example-menu-with-dropdowns",
+        "description": "tailwind-example-menu-with-dropdowns",
+        "date_created": "2025-09-29T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "tailwind"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/tailwind-example-menu-with-dropdowns",
+        "folder": ""
+    },
+    {
+        "title": "Target mso and not mso targets",
+        "description": "Target mso and not mso targets",
+        "date_created": "2025-07-23T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "outlook",
+            "mso"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/target-mso-and-not-mso-targets",
+        "folder": ""
+    },
+    {
+        "title": "technical debt article ideas",
+        "description": "technical debt article ideas",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "technical-debt"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/technical-debt-article-ideas",
+        "folder": ""
+    },
+    {
+        "title": "test",
+        "description": "test",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/test",
+        "folder": ""
+    },
+    {
+        "title": "Test PDF validity",
+        "description": "Test PDF validity",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "pdf"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/test-pdf-validity",
+        "folder": ""
+    },
+    {
+        "title": "The Json doc for the GenericArticle component used with react-email",
+        "description": "The Json doc for the GenericArticle component used with react-email",
+        "date_created": "2025-06-26T00:00:00.000Z",
+        "date_updated": "2025-09-30T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "react-email"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/eblast-react-email-json-doc-for-generic-article",
+        "folder": ""
+    },
+    {
+        "title": "This is a SvelteKit select tag component. It provides a dropdown list. It is based on, and provides, the ListItem type.",
+        "description": "This is a SvelteKit select tag component. It provides a dropdown list. It is based on, and provides, the ListItem type.",
+        "date_created": "2025-05-22T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte-component"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-component-select",
+        "folder": ""
+    },
+    {
+        "title": "Transforming Obsidian image links",
+        "description": "This article shows how to transform Obsidian image links into HTML img tags at runtime in Sveltekit app.",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-29T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "obsidian"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/transforming-obsidian-image-links",
+        "folder": ""
+    },
+    {
+        "title": "Trimming a form value in Sveltekit",
+        "description": "Trimming a form value in Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/trimming-a-form-value",
+        "folder": ""
+    },
+    {
+        "title": "Type predicate function",
+        "description": "Type predicate function",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/type-predicate-function",
+        "folder": ""
+    },
+    {
+        "title": "types versus interfaces",
+        "description": "types versus interfaces",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/types-versus-interfaces",
+        "folder": ""
+    },
+    {
+        "title": "TypeScript nested typing",
+        "description": "TypeScript nested typing",
+        "date_created": "2025-07-17T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/typescript-nested-typing",
+        "folder": ""
+    },
+    {
+        "title": "Typescript nuggets",
+        "description": "Typescript nuggets",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript",
+            "nuggets"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/typescript-nuggets",
+        "folder": ""
+    },
+    {
+        "title": "TypeScript type naming conventions",
+        "description": "TypeScript type naming conventions",
+        "date_created": "2025-07-03T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/typescript-type-naming-conventions",
+        "folder": ""
+    },
+    {
+        "title": "typescript-types-for-email-builder",
+        "description": "typescript-types-for-email-builder",
+        "date_created": "2025-07-02T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "email-builder",
+            "email"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/typescript-types-for-email-builder",
+        "folder": ""
+    },
+    {
+        "title": "typescript-types-interfaaces-tutorial",
+        "description": "typescript-types-interfaaces-tutorial",
+        "date_created": "2025-06-06T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/typescript-types-interfaaces-tutorial",
+        "folder": ""
+    },
+    {
+        "title": "Typescript's pick - omit - extract - exclude - utility types",
+        "description": "Typescript's pick - omit - extract - exclude - utility types",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/typescript-pick-omit-extract-exclude-utility-types",
+        "folder": ""
+    },
+    {
+        "title": "Typing arrow functions",
+        "description": "Typing arrow functions",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/typing-arrow-functions",
+        "folder": ""
+    },
+    {
+        "title": "Una Kravets/Adam Argyle CSS presentation",
+        "description": "Una Kravets/Adam Argyle CSS presentation",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/css-presentation-una-kravets-and-adam-argyle",
+        "folder": ""
+    },
+    {
+        "title": "Understanding Rust's unwrap function",
+        "description": "Understanding Rust's unwrap function",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rust-unwrap-method",
+        "folder": ""
+    },
+    {
+        "title": "Update Family table",
+        "description": "Update Family table",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sql",
+            "downloads"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/updating-each-family-last-release-date",
+        "folder": ""
+    },
+    {
+        "title": "Upgrade a Svelekit 1x project to 2x (acccording to Gemini)",
+        "description": "Upgrade a Svelekit 1x project to 2x (acccording to Gemini)",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/upgrade-a-svelekit-1x-project-to-2x-(acccording-to-gemini)",
+        "folder": ""
+    },
+    {
+        "title": "Upgrade PowerShell",
+        "description": "Upgrade PowerShell",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/upgrading-powershell",
+        "folder": ""
+    },
+    {
+        "title": "Use reflection with C# to create a map-driven Excel export process",
+        "description": "Use reflection with C# to create a map-driven Excel export process",
+        "date_created": "2025-06-05T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "excel"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/cs-type-mapping-for-excel-export",
+        "folder": ""
+    },
+    {
+        "title": "Use yield to read SQL Server",
+        "description": "Use yield to read SQL Server",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "csharp"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/use-yield-to-read-sql-server",
+        "folder": ""
+    },
+    {
+        "title": "Using @custom-media for ASNA.com responsiveness",
+        "description": "Using @custom-media for ASNA.com responsiveness",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-responsive-strategy",
+        "folder": ""
+    },
+    {
+        "title": "Using +page.server.ts for a server back end action for a page",
+        "description": "Using +page.server.ts for a server back end action for a page",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "nuggets"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-page-server-ts-for-a-server-back-end-action-for-a-page",
+        "folder": ""
+    },
+    {
+        "title": "Using CliWrap to launch a PowerShell script",
+        "description": "Using CliWrap to launch a PowerShell script",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "csharp",
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-cliwrap-to-launch-a-powershell-script",
+        "folder": ""
+    },
+    {
+        "title": "Using CSS clamp effectively",
+        "description": "Using CSS clamp effectively",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-css-clamp-effectively",
+        "folder": ""
+    },
+    {
+        "title": "Using Curl on Windows",
+        "description": "Using Curl on Windows",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows",
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-curl-on-windows",
+        "folder": ""
+    },
+    {
+        "title": "Using dynamic components with SvelteKit",
+        "description": "Using dynamic components with SvelteKit",
+        "date_created": "2025-06-26T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/sveltekit-dynamic-components",
+        "folder": ""
+    },
+    {
+        "title": "Using Flex search with ASNA.com for its search engine",
+        "description": "Using Flex search with ASNA.com for its search engine",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-23T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "search",
+            "asna-com"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-flex-search-with-asna-com",
+        "folder": ""
+    },
+    {
+        "title": "Using FlexSearch with SvelteKit with a service worker",
+        "description": "Using FlexSearch with SvelteKit with a service worker",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-flexsearch-with-a-service-worker",
+        "folder": ""
+    },
+    {
+        "title": "Using Mdsvex to transform markdown",
+        "description": "Using Mdsvex to transform markdown",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/fetch-a-markdown-post-with-mdsvex",
+        "folder": ""
+    },
+    {
+        "title": "Using PageFind static search",
+        "description": "Using PageFind static search",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "search"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-pagefind-static-search",
+        "folder": ""
+    },
+    {
+        "title": "Using PowerShell 7 with Postgres",
+        "description": "Using PowerShell 7 with Postgres",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell",
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-powershell-7-with-postgres",
+        "folder": ""
+    },
+    {
+        "title": "Using Pycco with Visual RPG",
+        "description": "Using Pycco with Visual RPG",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "asna",
+            "python"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-pycco-with-avr",
+        "folder": ""
+    },
+    {
+        "title": "Using regex in Rust",
+        "description": "Using regex in Rust",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-regex-in-rust",
+        "folder": ""
+    },
+    {
+        "title": "Using stored procedures with mssql and Node",
+        "description": "Using stored procedures with mssql and Node",
+        "date_created": "2025-07-05T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "mssql"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/stored-p;rocedures-with-mssql",
+        "folder": ""
+    },
+    {
+        "title": "Using string vectors in Rust",
+        "description": "Using string vectors in Rust",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-string-vectors-in-rust",
+        "folder": ""
+    },
+    {
+        "title": "Using Sveltekit ParamMatcher to constraint dynamic routes",
+        "description": "Using Sveltekit ParamMatcher to constraint dynamic routes",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-sveltekit-parammatcher-to-constraint-dynamic-routes",
+        "folder": ""
+    },
+    {
+        "title": "Using SvelteKit route matching",
+        "description": "Using SvelteKit route matching",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-svelte-dynamic-folder",
+        "folder": ""
+    },
+    {
+        "title": "Using the HTML Dialog element",
+        "description": "Using the HTML Dialog element",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "design",
+            "css",
+            "html"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-the-html-dialog-element",
+        "folder": ""
+    },
+    {
+        "title": "Using the Postgres pg module with sveltekit - part 1",
+        "description": "Using the Postgres pg module with sveltekit - part 1",
+        "date_created": "2025-05-20T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte",
+            "postgres"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-postgres-pg-module-with-sveltekit-1",
+        "folder": ""
+    },
+    {
+        "title": "Using TsDoc",
+        "description": "Using TSDoc",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "tsdoc",
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/tsdoc-tags",
+        "folder": ""
+    },
+    {
+        "title": "Using Typescript generics",
+        "description": "Using Typescript generics",
+        "date_created": "2025-10-29T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-typescript-generics",
+        "folder": ""
+    },
+    {
+        "title": "Using TypeScript with Svelte",
+        "description": "Using TypeScript with Svelte",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-typescript-with-svelte",
+        "folder": ""
+    },
+    {
+        "title": "Using Windows Custom URI Schemes to open a Windows app from a browser",
+        "description": "Using Windows Custom URI Schemes to open a Windows app from a browser",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-windows-custom-uri-schemes-to-open-a-windows-app-from-a-browser",
+        "folder": ""
+    },
+    {
+        "title": "Using Zod with forms",
+        "description": "Using Zod with forms",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-forms",
+        "folder": ""
+    },
+    {
+        "title": "using-javascript-promises",
+        "description": "using-javascript-promises",
+        "date_created": "2025-05-27T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "javascript",
+            "typescript"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-javascript-promises",
+        "folder": ""
+    },
+    {
+        "title": "using-mdsvex-with-remote-function",
+        "description": "Using Mdsvex with a SvelteKit remote function",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/using-mdsvex-with-remote-function",
+        "folder": ""
+    },
+    {
+        "title": "Utilities",
+        "description": "Utilities",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "pc"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/utilities",
+        "folder": ""
+    },
+    {
+        "title": "Validating Sveltekit forms with Zod",
+        "description": "Validating Sveltekit forms with Zod",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "forms"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/validating-sveltekit-forms-with-zod",
+        "folder": ""
+    },
+    {
+        "title": "ValueFromPipeline",
+        "description": "ValueFromPipeline",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/valuefrompipeline",
+        "folder": ""
+    },
+    {
+        "title": "Vanilla CSS for Sveltekit",
+        "description": "Vanilla CSS for Sveltekit",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-15T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit",
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/vanilla-css-for-sveltekit",
+        "folder": ""
+    },
+    {
+        "title": "Vary holy grail aside and article columns widths (clamp and minmax)",
+        "description": "Vary holy grail aside and article columns widths (clamp and minmax)",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "css"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/vary-holy-grail-aside-and-article-columns-widths-(clamp-and-minmax)",
+        "folder": ""
+    },
+    {
+        "title": "VS Code Prettier/ESLint configuration",
+        "description": "VS Code Prettier/ESLint configuration",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "vs-code"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/vs-code-prettier-eslint-configuration",
+        "folder": ""
+    },
+    {
+        "title": "ways to create dynamic queries for mssql - SQL Server with TypeScript.",
+        "description": "ways to create dynamic queries for mssql - SQL Server with TypeScript.",
+        "date_created": "2025-05-30T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "typescript",
+            "sql-server",
+            "mssql"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/mssql-dynamic-queries",
+        "folder": ""
+    },
+    {
+        "title": "Ways to map the Windows keyboard",
+        "description": "Ways to map the Windows keyboard",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/notes-on-keyboard-mapping",
+        "folder": ""
+    },
+    {
+        "title": "Webcast scheduling workflow",
+        "description": "Webcast scheduling workflow",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-04T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "lakeb2b",
+            "marketing"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/schedule-landing-page-webcast",
+        "folder": ""
+    },
+    {
+        "title": "Weirdo routing error",
+        "description": "Weirdo routing error",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/weirdo-routing-error",
+        "folder": ""
+    },
+    {
+        "title": "WezTerm configuration",
+        "description": "WezTerm configuration",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "utilities"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/wezterm-configuration",
+        "folder": ""
+    },
+    {
+        "title": "What are github packages",
+        "description": "What are github packages",
+        "date_created": "2025-02-02T00:00:00.000Z",
+        "date_updated": "2025-12-14T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "github"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/github-packages",
+        "folder": ""
+    },
+    {
+        "title": "What does & mean in Rust",
+        "description": "What does & mean in Rust",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/what-does-ampersand-mean-in-rust",
+        "folder": ""
+    },
+    {
+        "title": "What does Rust's 'mut' keyword do",
+        "description": "What does Rust's 'mut' keyword do",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/what-does-rusts-mut-keyword-do",
+        "folder": ""
+    },
+    {
+        "title": "What does the Rust ? operator do",
+        "description": "What does the Rust ? operator do",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/rust-question-mark-operator",
+        "folder": ""
+    },
+    {
+        "title": "What does the svelte-kit json object do",
+        "description": "What does the svelte-kit json object do",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "json",
+            "svelte"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/what-does-the-svelte-kit-json-function-do",
+        "folder": ""
+    },
+    {
+        "title": "What is a crate in Rust",
+        "description": "What is a crate in Rust",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/what-is-a-crate-in-rust",
+        "folder": ""
+    },
+    {
+        "title": "what is a docker file",
+        "description": "what is a docker file",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "docker",
+            "containers"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/what-is-a-docker-file",
+        "folder": ""
+    },
+    {
+        "title": "What is a vector in Rust",
+        "description": "What is a vector in Rust",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "rust"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/what-is-a-vector-in-rust",
+        "folder": ""
+    },
+    {
+        "title": "What is MS Aspire",
+        "description": "What is MS Aspire",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "microsoft"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/what-is-ms-aspire",
+        "folder": ""
+    },
+    {
+        "title": "Windows startup folder",
+        "description": "Windows startup folder",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/windows-startup-folder",
+        "folder": ""
+    },
+    {
+        "title": "windows-10-esu",
+        "description": "windows-10-esu",
+        "date_created": "2025-09-17T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "windows10"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/windows-10-esu",
+        "folder": ""
+    },
+    {
+        "title": "Work flowfor creating React-Email React Email emails",
+        "description": "Work flowfor creating React-Email React Email emails",
+        "date_created": "2025-06-22T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "react-email"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/react-email-workflow",
+        "folder": ""
+    },
+    {
+        "title": "Working with search parameters in Sveltekit",
+        "description": "Working with search parameters in Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/working-with-urlsearchparams-query-strings",
+        "folder": ""
+    },
+    {
+        "title": "working-with-budget-category-patterns",
+        "description": "working-with-budget-category-patterns",
+        "date_created": "2025-07-03T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "budget"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/working-with-budget-category-patterns",
+        "folder": ""
+    },
+    {
+        "title": "Writeable store in Sveltekit",
+        "description": "Writeable store in Sveltekit",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "sveltekit"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/putting-a-writeable-store-in-the-context-object",
+        "folder": ""
+    },
+    {
+        "title": "x cool things to do with PowerShell",
+        "description": "x cool things to do with PowerShell",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "powershell"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/cool-things-to-do-with-powershell",
+        "folder": ""
+    },
+    {
+        "title": "Zod  refinements",
+        "description": "Zod  refinements",
+        "date_created": "2025-05-18T00:00:00.000Z",
+        "date_updated": "2025-11-03T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "zod"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/zod-refinements",
+        "folder": ""
+    },
+    {
+        "title": "Zod technical notes and code fragments for creating interfaces and types with Zod.",
+        "description": "Zod technical notes and code fragments for creating interfaces and types with Zod.",
+        "date_created": "2025-05-21T00:00:00.000Z",
+        "date_updated": "2025-12-18T00:00:00.000Z",
+        "date_published": null,
+        "pinned": false,
+        "tags": [
+            "zod"
+        ],
+        "locale": "en",
+        "slug": "technical-posts/zod-technical-notes",
+        "folder": ""
+    }
+]

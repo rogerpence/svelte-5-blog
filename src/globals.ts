@@ -1,0 +1,1 @@
+export const TECHNICAL_POSTS_GRID_ROWS = 15;
