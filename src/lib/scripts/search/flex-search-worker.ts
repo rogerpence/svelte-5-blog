@@ -1,4 +1,4 @@
-import indexObjects from '$lib/data/brainiac-index-objects.json';
+import indexObjects from '$lib/data/tech-index-objects.json';
 //import type { Result } from './search.ts';
 
 import { createIndex, searchIndex } from './flex-index-helpers';
