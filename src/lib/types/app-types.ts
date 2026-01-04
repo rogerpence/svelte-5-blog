@@ -6,7 +6,7 @@ export const TechnicalNoteFrontmatterSchema = z
 		description: z.string(),
 		date_created: z.union([z.string(), z.date()]),
 		date_updated: z.union([z.string(), z.date()]),
-		date_published: z.string().nullish(),
+		date_published: z.union([z.string().nullish(), z.date()]),
 		pinned: z.boolean(),
 		tags: z.array(z.string())
 	})

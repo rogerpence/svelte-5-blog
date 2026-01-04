@@ -1,6 +1,6 @@
 import 'rp-utils/console';
 import { parseCommandLineArgs } from './archive/cmd-args-lib';
-//import markdownObjectsData from '../data/markdown-objects.json';
+//import markdownObjectsData from '../../src/lib/data/brainiac-markdown-objects.json';
 import path from 'path';
 import {
 	type MarkdownDocument,
@@ -45,7 +45,7 @@ const args = parseCommandLineArgs(cmdLineArgs);
 
 // process.exit();
 
-const markdownObjectsData = await import(`../data/${args.markdownObjectsInputFile}`);
+const markdownObjectsData = await import(`../../src/lib/data/${args.markdownObjectsInputFile}`);
 
 const markdownObjects = markdownObjectsData.default as MarkdownDocument<TechnicalNoteFrontmatter>[];
 

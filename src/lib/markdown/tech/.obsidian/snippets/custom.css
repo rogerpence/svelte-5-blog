@@ -1,0 +1,136 @@
+/*
+============================================================
+           COMPLETE CUSTOM OBSIDIAN STYLES
+============================================================
+  This snippet controls:
+  1. Distinct Heading Colors for Reading vs. Live Preview
+  2. Max Line Width (Readable Line Length)
+  3. Active Mode Indicators (Reading, Live Preview, Source)
+============================================================
+*/
+
+/* --- 1. CONFIGURATION: Edit all your styles here! --- */
+:root {
+  /* -- Max Width Settings -- */
+  /* 'ch' is a unit relative to the width of the "0" character.
+     70-80ch is common for readability. 120ch is wider. */
+  --line-width: 100ch;
+
+
+  /* -- Heading Color Settings -- */
+  /* You can now set different colors for Reading and Live Preview modes. */
+  
+  /* Reading Mode Colors */
+  --h1-reading-color: #155dfc;   /* Darker Red */
+  --h2-reading-color: #e17100;   /* Darker Blue */
+  --h3-reading-color: #3CB371;   /* Darker Yellow */
+  --h4-reading-color: #e866a9;   /* Darker Green */
+  --h5-reading-color: #53565A;   /* Darker Orange */
+  --h6-reading-color: #BA68C8;   /* Darker Purple */
+  
+  /* Live Preview (Editing) Colors */
+  --h1-live-preview-color: #155dfc  ;   /* Lighter Red oklch(25.8% 0.092 26.042)       #B22222     */
+  --h2-live-preview-color: #e17100;   /* Lighter Blue */
+  --h3-live-preview-color: #3CB371;   /* Lighter Yellow */
+  --h4-live-preview-color: #e866a9;   /* Lighter Green */
+  --h5-live-preview-color: #53565A;   /* Lighter Orange */
+  --h6-live-preview-color: #BA68C8;   /* Lighter Purple */
+
+
+  /* -- Mode Indicator Settings -- */
+  --indicator-reading-text: "Reading";
+  --indicator-live-preview-text: "Editing";
+  --indicator-source-mode-text: "Source";
+
+  --indicator-reading-bg: #00a6f4;      /* A calm green */
+  --indicator-live-preview-bg: #ffb900; /* A standard blue */
+  --indicator-source-mode-bg: #f6339a;  /* A warm brown */
+  --indicator-text-color: black;
+}
+
+
+/* --- 2. STYLES: Do not edit below unless you know what you are doing --- */
+
+/* == A) MAX WIDTH & INDICATOR SETUP == */
+
+/* Make parent containers relative for indicator positioning */
+.markdown-reading-view,
+.markdown-source-view {
+  position: relative;
+}
+
+/* Set max width and add top padding for the indicator */
+.markdown-preview-view .markdown-preview-sizer,
+.markdown-source-view .cm-sizer {
+  max-width: var(--line-width);
+  padding-top: 2.5rem;   /* Ensure space for the indicator */
+}
+
+
+/* == B) HEADING COLOR STYLES == */
+
+/* -- Reading Mode Heading Colors -- */
+.markdown-preview-view h1 { color: var(--h1-reading-color); }
+.markdown-preview-view h2 { color: var(--h2-reading-color); }
+.markdown-preview-view h3 { color: var(--h3-reading-color); }
+.markdown-preview-view h4 { color: var(--h4-reading-color); }
+.markdown-preview-view h5 { color: var(--h5-reading-color); }
+.markdown-preview-view h6 { color: var(--h6-reading-color); }
+
+/* -- Live Preview Heading Colors -- */
+.cm-s-obsidian .cm-header-1 { color: var(--h1-live-preview-color); }
+.cm-s-obsidian .cm-header-2 { color: var(--h2-live-preview-color); }
+.cm-s-obsidian .cm-header-3 { color: var(--h3-live-preview-color); }
+.cm-s-obsidian .cm-header-4 { color: var(--h4-live-preview-color); }
+.cm-s-obsidian .cm-header-5 { color: var(--h5-live-preview-color); }
+.cm-s-obsidian .cm-header-6 { color: var(--h6-live-preview-color); }
+
+/* Color the markdown # symbols to match the heading in Live Preview */
+.cm-s-obsidian .cm-formatting-header { color: inherit !important; }
+
+
+/* == C) MODE INDICATOR STYLES == */
+
+/* Base styles for all indicators */
+.markdown-reading-view::before,
+.markdown-source-view.is-live-preview::before,
+.markdown-source-view:not(.is-live-preview)::before {
+  position: absolute;
+  top: 0.5rem;
+  /*left: 50%;*/ /* Center the indicator */
+  left: 12ch;
+  transform: translateX(-50%); /* Fine-tune centering */
+  z-index: 10;
+  
+  font-size: 10px;
+  font-family: var(--font-interface);
+  color: var(--indicator-text-color);
+  width: fit-content;
+  padding: .3rem .7rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* Indicator for READING MODE */
+.markdown-reading-view::before {
+  content: var(--indicator-reading-text);
+  background-color: var(--indicator-reading-bg);
+}
+
+/* Indicator for LIVE PREVIEW */
+.markdown-source-view.is-live-preview::before {
+  content: var(--indicator-live-preview-text);
+  background-color: var(--indicator-live-preview-bg);
+}
+
+/* Indicator for SOURCE MODE */
+.markdown-source-view:not(.is-live-preview)::before {
+  content: var(--indicator-source-mode-text);
+  background-color: var(--indicator-source-mode-bg);
+}
+
+/*
+.theme-dark .mermaid > svg {
+  filter: none;
+}
+*/

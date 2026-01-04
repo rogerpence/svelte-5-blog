@@ -173,7 +173,7 @@
 				<div class="dropdown__menu--wrapper">
 					<li>
 						<a
-							href="/technical-posts"
+							href="/tech"
 							rel="external"
 							style=""
 							data-sveltekit-preload-data="hover"

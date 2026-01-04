@@ -43,7 +43,6 @@ const cmdLineArgs = [
 ] as const;
 
 const args = parseCommandLineArgs(cmdLineArgs);
-console.jsonString(args);
 
 const outputPath = getAppPath(import.meta.url, 'src\\lib\\data');
 

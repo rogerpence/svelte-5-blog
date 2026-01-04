@@ -2,7 +2,7 @@
 import { query } from '$app/server';
 import { z } from 'zod';
 
-import navigationObjectsData from '$lib/data/brainiac-nav-objects.json';
+import navigationObjectsData from '$lib/data/tech-nav-objects.json';
 
 import { getPagedData, sortObjArray, type PagerObj } from 'rp-utils';
 import { type TechnicalNoteFrontmatter } from '$lib/types/app-types';
